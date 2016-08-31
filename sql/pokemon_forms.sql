@@ -1,14 +1,14 @@
 CREATE TABLE IF NOT EXISTS pokemon_forms (
   `id` INTEGER unsigned NOT NULL PRIMARY KEY,
   `identifier` VARCHAR (255),
-  `form_identifier` INTEGER unsigned,
+  `form_identifier` VARCHAR (255),
   `pokemon_id` INTEGER unsigned,
   `introduced_in_version_group_id` INTEGER unsigned,
-  `is_default` VARCHAR (255),
-  `is_battle_only` VARCHAR (255),
-  `is_mega` VARCHAR (255),
-  `form_order` VARCHAR (255),
-  `order` VARCHAR (255)
+  `is_default` INTEGER unsigned,
+  `is_battle_only` INTEGER unsigned,
+  `is_mega` INTEGER unsigned,
+  `form_order` INTEGER unsigned,
+  `order` INTEGER unsigned
 );
 
 CREATE INDEX IF NOT EXISTS `idx_pokemon_forms_form_identifier` ON `pokemon_forms` (`form_identifier`);

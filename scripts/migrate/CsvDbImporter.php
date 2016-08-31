@@ -131,7 +131,7 @@ class CsvDbImporter extends CsvDbHelper
                 $definitions[] = "`{$colName}` INTEGER unsigned";
                 $indexes[] = $colName;
             } else {
-                $definitions[] = "`{$colName}` VARCHAR (255)";
+                $definitions[] = "`{$colName}` TEXT";
             }
         }
         $sql = 'CREATE TABLE IF NOT EXISTS ' . $tableName

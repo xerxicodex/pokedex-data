@@ -1,7 +1,8 @@
 CREATE TABLE IF NOT EXISTS ability_names (
   `ability_id` INTEGER unsigned,
   `local_language_id` INTEGER unsigned,
-  `name` VARCHAR (255)
+  `name` VARCHAR (255),
+  PRIMARY KEY  (`ability_id`,`local_language_id`)
 );
 
 CREATE INDEX IF NOT EXISTS `idx_ability_names_ability_id` ON `ability_names` (`ability_id`);

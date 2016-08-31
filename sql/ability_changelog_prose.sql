@@ -1,7 +1,8 @@
 CREATE TABLE IF NOT EXISTS ability_changelog_prose (
   `ability_changelog_id` INTEGER unsigned,
   `local_language_id` INTEGER unsigned,
-  `effect` VARCHAR (255)
+  `effect` TEXT,
+  PRIMARY KEY  (`ability_changelog_id`,`local_language_id`)
 );
 
 CREATE INDEX IF NOT EXISTS `idx_ability_changelog_prose_ability_changelog_id` ON `ability_changelog_prose` (`ability_changelog_id`);

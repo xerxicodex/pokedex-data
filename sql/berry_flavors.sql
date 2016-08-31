@@ -1,7 +1,8 @@
 CREATE TABLE IF NOT EXISTS berry_flavors (
   `berry_id` INTEGER unsigned,
   `contest_type_id` INTEGER unsigned,
-  `flavor` VARCHAR (255)
+  `flavor` INTEGER unsigned,
+  PRIMARY KEY  (`berry_id`,`contest_type_id`)
 );
 
 CREATE INDEX IF NOT EXISTS `idx_berry_flavors_berry_id` ON `berry_flavors` (`berry_id`);

@@ -2,8 +2,8 @@ CREATE TABLE IF NOT EXISTS encounter_slots (
   `id` INTEGER unsigned NOT NULL PRIMARY KEY,
   `version_group_id` INTEGER unsigned,
   `encounter_method_id` INTEGER unsigned,
-  `slot` VARCHAR (255),
-  `rarity` VARCHAR (255)
+  `slot` INTEGER unsigned,
+  `rarity` INTEGER unsigned
 );
 
 CREATE INDEX IF NOT EXISTS `idx_encounter_slots_version_group_id` ON `encounter_slots` (`version_group_id`);
