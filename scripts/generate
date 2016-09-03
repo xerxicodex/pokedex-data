@@ -3,8 +3,5 @@
 # Path from where this script is called
 __PATH__=`readlink -f ./`
 
-# CD to root path
-cd ${__PATH__}
-
 ./scripts/reload
 php scripts/migrate.php
