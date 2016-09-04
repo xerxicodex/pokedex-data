@@ -31,7 +31,7 @@ php scripts/dbmigrate.php || exit 1
 # Exports the database into CSV files
 php scripts/dbexport.php || exit 1
 
-# Imports all migrated CSV files into a SQLite DB in the data directory
+# Imports all migrated CSV files into a new SQLite DB
 php scripts/dbcreate.php || exit 1
 
 echo "Your Pokémon data is ready to be used!"
