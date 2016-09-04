@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+
+if [ $# -eq 0 ]
+  then
+    echo "Missing first argument: migration name."
+    exit 1
+fi
+
+# Path from where this script is called
+__PATH__=`readlink -f ./`
+
+# CD to root path
+cd ${__PATH__}
+
+MIGRATION_NAME=$(date "+%Y-%m-%d-%H-%M-%S")_$1
+
+touch scripts/migrations/${MIGRATION_NAME}.sql
+
+echo "<?php" >> scripts/migrations/${MIGRATION_NAME}.php
+echo "/** @var \PDO \$pdo */" >> scripts/migrations/${MIGRATION_NAME}.php
+
+echo "Migration ${MIGRATION_NAME} created successfully!"

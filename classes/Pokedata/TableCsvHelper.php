@@ -76,12 +76,13 @@ class TableCsvHelper extends PdoHelper
      * Ignored if verbose mode is off.
      *
      * @param $message
+     * @param bool $newLine
      * @return bool
      */
-    public function log($message)
+    public function log($message, $newLine = true)
     {
         if ($this->verbose) {
-            print $message . PHP_EOL;
+            print $message . ($newLine ? PHP_EOL : '');
             return true;
         }
         return false;

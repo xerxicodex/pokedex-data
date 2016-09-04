@@ -15,9 +15,11 @@ try {
     echo "Optimizing and migrating the temporary SQLite database tables...\n";
 
     $migrator = new Migrator($pdo);
+
+    $migrationsDir = __DIR__ . DIRECTORY_SEPARATOR . 'migrations';
     $migrationScripts = $migrator->findMigrations(__DIR__ . DIRECTORY_SEPARATOR . 'migrations');
 
-    if ($migrator->migrate($migrationScripts)) {
+    if ($migrator->migrate($migrationScripts, $migrationsDir)) {
         echo "DONE!\n";
     }else{
         echo "\n";
