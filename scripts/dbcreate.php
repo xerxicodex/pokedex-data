@@ -5,17 +5,20 @@ use metaunicorn\Pokedata\TableCsvImporter;
 include_once __DIR__ . DIRECTORY_SEPARATOR . '_paths.php';
 
 if (isset($argv[1]) && strtolower($argv[1]) == '--tmp') {
+    // IMPORTING ORIGINAL CSVs
     $message = "Importing original CSV files into a temporary SQLite database...\n";
     $dbFile = $dbTmpFile;
     $csvPath = $csvTmpPath;
     $sqlPath = $sqlTmpPath; // do not cache table schema SQL files
     $verbose = true;
+    $columnRules = include __DIR__ . DIRECTORY_SEPARATOR . '_rules.php';
 } else {
     $message = "Importing migrated CSV files into a new SQLite database...\n";
     $dbFile = $dbExportFile;
     $csvPath = $csvExportPath;
     $sqlPath = $sqlExportPath;
     $verbose = false;
+    $columnRules = [];
 }
 try {
     require_once $srcPath . $ds . "autoload.php";
@@ -29,7 +32,7 @@ try {
 
     $dbImporter = new TableCsvImporter($csvPath, $sqlPath, $pdo);
     $dbImporter->setVerbose($verbose);
-    $dbImporter->import(null, $tablePrefix, 250);
+    $dbImporter->import(null, $tablePrefix, $columnRules, 250);
 
     echo "DONE!\n";
 } catch (\Exception $e) {

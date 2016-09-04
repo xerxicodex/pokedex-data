@@ -17,7 +17,8 @@ mkdir -p tmp
 mkdir -p data
 
 echo "Cleaning up previously generated CSV files and SQLite databases..."
-rm -rf data/csv data/*.sqlite tmp/csv tmp/*.sqlite
+rm -rf data/csv tmp/csv
+rm -rf data/*.sqlite tmp/*.sqlite
 
 ./scripts/update-sources || exit 1
 

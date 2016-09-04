@@ -29,7 +29,7 @@ class TableCsvImporter extends TableCsvHelper
         return ($this->sqlPath !== false);
     }
 
-    public function import(array $files = null, $tablePrefix = '', $maxBulkInserts = 200)
+    public function import(array $files = null, $tablePrefix = '', array $columnRules, $maxBulkInserts = 200)
     {
         if (is_null($files)) {
             $files = $this->getFiles();
@@ -40,13 +40,19 @@ class TableCsvImporter extends TableCsvHelper
             $csvFile = $this->getPath() . DIRECTORY_SEPARATOR . $filename;
             $tableNameNoPrefix = basename($filename, '.csv');
             $tableName = $tablePrefix . $tableNameNoPrefix;
+            $currentColumnRules = array_merge(
+                (isset($columnRules['*']) ? $columnRules['*'] : []),
+                (isset($columnRules[$tableNameNoPrefix]) ? $columnRules[$tableNameNoPrefix] : [])
+            );
             $columns = $this->getCsvColumns($filename);
+            $newColumns = (empty($currentColumnRules) ? $columns :
+                array_keys($this->applyColumnRules(array_combine($columns, $columns), $currentColumnRules)));
             $inserts = [];
             $csvLine = 0;
             $numInserts = 0;
             $tableSql = false;
 
-            if (empty($columns)) {
+            if (empty($columns) || empty($newColumns)) {
                 $this->log('Something went wrong parsing "' . $filename . '" column names. ' .
                     'Skipping import for this file...');
                 continue;
@@ -55,7 +61,7 @@ class TableCsvImporter extends TableCsvHelper
             if (!$this->hasTable($tableName)) {
                 // The table does not exist yet
                 $this->log('Creating table "' . $tableName . '"...');
-                $tableSql = $this->getTableCreationSql($tableNameNoPrefix, $tableName, $columns);
+                $tableSql = $this->getTableCreationSql($tableNameNoPrefix, $tableName, $newColumns);
             } elseif (!$this->isTableEmpty($tableName)) {
                 // The table is not empty
                 $this->log('Skipping seeding of not empty table "' . $tableName . '"');
@@ -73,7 +79,11 @@ class TableCsvImporter extends TableCsvHelper
                     $this->log('Seeding table "' . $tableName . '"');
                     while (($row = fgetcsv($handle, null, ',')) !== false) {
                         if ($csvLine > 0) {
-                            $inserts[] = array_combine($columns, array_values($row));
+                            $rowAssoc = array_combine($columns, array_values($row));
+                            $rowAssoc = (empty($currentColumnRules) ? $rowAssoc : $this->applyColumnRules($rowAssoc,
+                                $currentColumnRules));
+
+                            $inserts[] = $rowAssoc;
                             if (count($inserts) >= $maxBulkInserts) {
                                 $numInserts += count($inserts);
                                 $this->insert($tableName, $inserts);
@@ -103,12 +113,33 @@ class TableCsvImporter extends TableCsvHelper
         }
     }
 
+    private function applyColumnRules(array $data, array $rules)
+    {
+        $newData = [];
+        foreach ($data as $columnName => $value) {
+            if (!array_key_exists($columnName, $rules)) {
+                // No rules for this column, add it as it is
+                $newData[$columnName] = $data[$columnName];
+                continue;
+            }
+            $rule = $rules[$columnName];
+            if (!$rule) {
+                // Exclude column
+                continue;
+            } else {
+                // Rename column
+                $newData[$rule] = $data[$columnName];
+            }
+        }
+        return $newData;
+    }
+
     /**
      * Parses the column names of the CSV file (in the first line)
      *
      * @param string $filename CSV file
      *
-     * @return string[] The column names (not quoted)
+     * @return \string[] The column names (not quoted)
      */
     public function getCsvColumns($filename)
     {
@@ -133,19 +164,36 @@ class TableCsvImporter extends TableCsvHelper
 
         if ($this->isCacheEnabled() && file_exists($sqlFile)) {
             // Load schema file if exists, and continue
-            return file_get_contents($sqlFile);
+            //return file_get_contents($sqlFile);
         }
 
         $definitions = [];
         $indexes = [];
         $hasPrimaryKey = false;
         foreach ($columnNames as $colName) {
-            if (!$hasPrimaryKey && ($colName == 'id' || ($colName == $tableName . '_id'))) {
+            if (
+                !$hasPrimaryKey
+                && ($colName == 'id' || ($colName == $tableName . '_id'))
+            ) {
                 $definitions[] = "`{$colName}` INTEGER unsigned NOT NULL PRIMARY KEY";
                 $hasPrimaryKey = true;
-            } elseif ((strpos($colName, '_id') !== false) || (strpos($colName, 'id_') !== false)) {
+            } elseif (
+                (preg_match('/^id_/', $colName))
+                || (preg_match('/_id$/', $colName))
+            ) {
                 $definitions[] = "`{$colName}` INTEGER unsigned";
                 $indexes[] = $colName;
+            } elseif (
+                (preg_match('/^is_/', $colName))
+                || (in_array($colName, ['order']))
+            ) {
+                $definitions[] = "`{$colName}` INTEGER unsigned";
+            } elseif (
+                (preg_match('/^name_/', $colName))
+                || (preg_match('/_name$/', $colName))
+                || (in_array($colName, ['identifier', 'codename', 'name', 'slug', 'alias']))
+            ) {
+                $definitions[] = "`{$colName}` VARCHAR(255)";
             } else {
                 $definitions[] = "`{$colName}` TEXT";
             }
