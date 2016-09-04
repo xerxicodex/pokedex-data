@@ -5,7 +5,7 @@ namespace metaunicorn\Pokedata;
 /**
  * Imports CSV files into a SQL table
  */
-class CsvDbImporter extends CsvDbHelper
+class TableCsvImporter extends TableCsvHelper
 {
     /**
      * @var bool|false|string

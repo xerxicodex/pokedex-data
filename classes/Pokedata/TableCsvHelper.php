@@ -5,7 +5,7 @@ namespace metaunicorn\Pokedata;
 /**
  * Base class for managing a directory containing CSV files with a DB
  */
-class CsvDbHelper extends PdoHelper
+class TableCsvHelper extends PdoHelper
 {
     /**
      * @var string
@@ -20,18 +20,20 @@ class CsvDbHelper extends PdoHelper
     /**
      * CsvDbHelper constructor.
      * @param string $csvPath
-     * @param \PDO $db
+     * @param \PDO|null $db
      */
-    public function __construct($csvPath, \PDO $db)
+    public function __construct($csvPath, \PDO $db = null)
     {
-        parent::__construct($db);
+        if ($db) {
+            $this->setDb($db);
+        }
         $this->setPath($csvPath);
     }
 
     /**
      * Sets the CSV Path
      * @param string $csvPath
-     * @return CsvDbHelper
+     * @return TableCsvHelper
      */
     public function setPath($csvPath)
     {
@@ -87,7 +89,7 @@ class CsvDbHelper extends PdoHelper
 
     /**
      * @param bool $verbose
-     * @return CsvDbHelper
+     * @return TableCsvHelper
      */
     public function setVerbose($verbose)
     {

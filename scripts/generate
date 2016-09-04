@@ -1,7 +1,37 @@
 #!/usr/bin/env bash
 
+#
+# This script optimizes the original veekun/pokedex CSV data structure
+# by changing some of the CSV structures
+# so the databases importing the data directly will have better performance.
+#
+
+
 # Path from where this script is called
 __PATH__=`readlink -f ./`
 
-./scripts/reload
-php scripts/migrate.php
+# CD to root path
+cd ${__PATH__}
+
+mkdir -p tmp
+mkdir -p data
+
+echo "Cleaning up previously generated CSV files and SQLite databases..."
+rm -rf data/csv data/*.sqlite tmp/csv tmp/*.sqlite
+
+./scripts/update-sources || exit 1
+
+# Imports all original CSV files into a temporary SQLite DB
+php scripts/dbcreate.php --tmp || exit 1
+
+# Optimizes DB structure and applies fixtures
+php scripts/dbmigrate.php || exit 1
+
+# Exports the database into CSV files
+php scripts/dbexport.php || exit 1
+
+# Imports all migrated CSV files into a SQLite DB in the data directory
+php scripts/dbcreate.php || exit 1
+
+echo "Your Pokémon data is ready to be used!"
+echo "You will find all files under the 'data' directory."

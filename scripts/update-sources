@@ -3,18 +3,17 @@
 # Path from where this script is called
 __PATH__=`readlink -f ./`
 
-echo "Reloading CSV data from latest veekun/pokedex master..."
+echo "Downloading latest CSV updates from veekun/pokedex (master branch)..."
 
 # CD to root path
 cd ${__PATH__}
 
 # Recreate tmp dir if does not exist
 mkdir -p tmp
-
-# Delete CSV folders and DBs
-rm -rf csv
 cd tmp
-rm -rf csv *.sqlite
+
+# Delete tmp CSV folder
+rm -rf csv
 
 # Clone original data source from Veekun and move files
 if [ -d "veekun-pokedex/.git" ]; then
