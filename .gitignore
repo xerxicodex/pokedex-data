@@ -8,3 +8,4 @@ nbproject
 *.log
 *.sqlite
 *.sqlite-journal
+vendor

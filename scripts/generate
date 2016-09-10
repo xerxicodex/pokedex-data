@@ -23,16 +23,20 @@ rm -rf data/*.sqlite tmp/*.sqlite
 ./scripts/update-sources || exit 1
 
 # Imports all original CSV files into a temporary SQLite DB
-php scripts/dbcreate.php --tmp || exit 1
+php scripts/db_import.php --tmp || exit 1
+
+sleep 2 # give the computer a break
 
 # Optimizes DB structure and applies fixtures
-php scripts/dbmigrate.php || exit 1
+php scripts/db_migrate.php || exit 1
+
+sleep 2 # give the computer a break
 
 # Exports the database into CSV files
-php scripts/dbexport.php || exit 1
+php scripts/db_export.php || exit 1
 
 # Imports all migrated CSV files into a new SQLite DB
-php scripts/dbcreate.php || exit 1
+php scripts/db_import.php || exit 1
 
 echo "Your Pokémon data is ready to be used!"
 echo "You will find all files under the 'data' directory."

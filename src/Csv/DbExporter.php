@@ -1,32 +1,33 @@
 <?php
 
-namespace metaunicorn\Pokedata;
+namespace metaunicorn\Pokedata\Csv;
 
 /**
  * Exports a SQL table into CSV files
  */
-class TableCsvExporter extends TableCsvHelper
+class DbExporter extends BaseDbHelper
 {
-
     /**
-     * @param array $tables List of tables to be exported (with the $tablePrefix if any)
-     * @param string $tablePrefix Table prefix to be excluded from the resulting CSV filename
+     * @param array $tables List of tables to be exported (with the table prefix if any)
+     *
      * @throws \Exception
      */
-    public function export(array $tables = null, $tablePrefix = '')
+    public function export(array $tables = null)
     {
+        $tablePrefix = $this->getDb()->getTablePrefix();
         if (is_null($tables)) {
             $tables = array_map(function ($row) {
                 return $row['name'];
             },
                 $this->getDb()
-                    ->query('SELECT name FROM sqlite_master WHERE type = "table"')
-                    ->fetchAll(\PDO::FETCH_ASSOC)
+                     ->query('SELECT name FROM sqlite_master WHERE type = "table"')
+                     ->fetchAll(\PDO::FETCH_ASSOC)
             );
         }
         foreach ($tables as $tableName) {
             $filename = $tablePrefix ? preg_replace('/^/' . $tablePrefix, '', $tableName, 1) : $tableName;
-            $csvFile = rtrim($this->getPath(), DIRECTORY_SEPARATOR . '\\') . DIRECTORY_SEPARATOR . $filename . '.csv';
+            $csvFile  = rtrim($this->getCsvPath(),
+                    DIRECTORY_SEPARATOR . '\\') . DIRECTORY_SEPARATOR . $filename . '.csv';
             if (file_exists($csvFile)) {
                 // Empty the file if exists
                 file_put_contents($csvFile, '');
@@ -34,9 +35,9 @@ class TableCsvExporter extends TableCsvHelper
                 touch($csvFile);
             }
 
-            $this->log("Exporting table ${tableName} to CSV...");
+            $this->getCli()->writeLn("Exporting table ${tableName} to CSV...");
             $fileHandler = fopen($csvFile, 'w');
-            $rowCount = 0;
+            $rowCount    = 0;
             try {
                 $query = $this->getDb()->query("SELECT * FROM `${tableName}`");
                 while ($row = $query->fetch(\PDO::FETCH_ASSOC)) {

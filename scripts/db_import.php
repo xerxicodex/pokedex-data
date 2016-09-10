@@ -1,0 +1,37 @@
+<?php
+
+use metaunicorn\Pokedata\Csv\DbImporter;
+use metaunicorn\Pokedata\Orm\Db;
+
+/** @var \metaunicorn\Pokedata\App $app */
+$app = include __DIR__ . DIRECTORY_SEPARATOR . '../bootstrap.php';
+
+try {
+    if ($app->getCli()->getOption('tmp') === true) {
+        // IMPORTING ORIGINAL CSVs into the temporary DB
+        $app->setDb(Db::getInstance('tmp_db'));
+        $mute        = false;
+        $message     = "Importing original CSV files into a temporary SQLite database...";
+        $csvPath     = $app->getPath('tmp_csv');
+        $sqlPath     = $app->getPath('tmp_sql');
+        $columnRules = $app->getConfig('csv_import_rules', []);
+    } else {
+        // IMPORTING migrated CSVs into a new DB
+        $app->setDb(Db::getInstance('db'));
+        $mute        = true;
+        $message     = "Importing migrated CSV files into a new SQLite database...";
+        $csvPath     = $app->getPath('csv');
+        $sqlPath     = $app->getPath('sql');
+        $columnRules = [];
+    }
+    $app->getCli()->writeLn($message);
+    $app->getCli()->setQuiet($mute);
+    $dbImporter = new DbImporter($csvPath, $sqlPath, $app);
+    $dbImporter->import(null, $columnRules, 250);
+    $app->getCli()->writeLn("DONE!");
+} catch (\Exception $e) {
+    $app->getCli()->writeLn("UNCAUGHT EXCEPTION:" . $e->getMessage());
+    exit(1);
+}
+
+exit(0);

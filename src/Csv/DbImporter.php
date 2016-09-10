@@ -1,11 +1,13 @@
 <?php
 
-namespace metaunicorn\Pokedata;
+namespace metaunicorn\Pokedata\Csv;
+
+use metaunicorn\Pokedata\App;
 
 /**
- * Imports CSV files into a SQL table
+ * Imports CSV files into a SQL database
  */
-class TableCsvImporter extends TableCsvHelper
+class DbImporter extends BaseDbHelper
 {
     /**
      * @var bool|false|string
@@ -14,14 +16,15 @@ class TableCsvImporter extends TableCsvHelper
 
     /**
      * CsvDbImporter constructor.
+     *
      * @param string $csvPath
      * @param bool|false|string $sqlPath if FALSE the SQL schema cache will be disabled
-     * @param \PDO $db
+     * @param App $app
      */
-    public function __construct($csvPath, $sqlPath = false, \PDO $db)
+    public function __construct($csvPath, $sqlPath = false, App $app)
     {
-        $this->sqlPath = $sqlPath;
-        parent::__construct($csvPath, $db);
+        $this->setSqlPath($sqlPath);
+        parent::__construct($csvPath, $app);
     }
 
     public function isCacheEnabled()
@@ -29,54 +32,55 @@ class TableCsvImporter extends TableCsvHelper
         return ($this->sqlPath !== false);
     }
 
-    public function import(array $files = null, $tablePrefix = '', array $columnRules, $maxBulkInserts = 200)
+    public function import(array $files = null, array $columnRules, $maxBulkInserts = 200)
     {
+        $tablePrefix = $this->getDb()->getTablePrefix();
+
         if (is_null($files)) {
-            $files = $this->getFiles();
+            $files = $this->getCsvFiles();
         }
-        $db = $this->getDb();
 
         foreach ($files as $i => $filename) {
-            $csvFile = $this->getPath() . DIRECTORY_SEPARATOR . $filename;
-            $tableNameNoPrefix = basename($filename, '.csv');
-            $tableName = $tablePrefix . $tableNameNoPrefix;
+            $csvFile            = $this->getCsvPath() . DIRECTORY_SEPARATOR . $filename;
+            $tableNameNoPrefix  = basename($filename, '.csv');
+            $tableName          = $tablePrefix . $tableNameNoPrefix;
             $currentColumnRules = array_merge(
                 (isset($columnRules['*']) ? $columnRules['*'] : []),
                 (isset($columnRules[$tableNameNoPrefix]) ? $columnRules[$tableNameNoPrefix] : [])
             );
-            $columns = $this->getCsvColumns($filename);
-            $newColumns = (empty($currentColumnRules) ? $columns :
+            $columns            = $this->getCsvColumns($filename);
+            $newColumns         = (empty($currentColumnRules) ? $columns :
                 array_keys($this->applyColumnRules(array_combine($columns, $columns), $currentColumnRules)));
-            $inserts = [];
-            $csvLine = 0;
-            $numInserts = 0;
-            $tableSql = false;
+            $inserts            = [];
+            $csvLine            = 0;
+            $numInserts         = 0;
+            $tableSql           = false;
 
             if (empty($columns) || empty($newColumns)) {
-                $this->log('Something went wrong parsing "' . $filename . '" column names. ' .
-                    'Skipping import for this file...');
+                $this->getCli()->writeLn('Something went wrong parsing "' . $filename . '" column names. ' .
+                                         'Skipping import for this file...');
                 continue;
             }
 
-            if (!$this->hasTable($tableName)) {
+            if ( ! $this->getDb()->hasTable($tableName)) {
                 // The table does not exist yet
-                $this->log('Creating table "' . $tableName . '"...');
+                $this->getCli()->writeLn('Creating table "' . $tableName . '"...');
                 $tableSql = $this->getTableCreationSql($tableNameNoPrefix, $tableName, $newColumns);
-            } elseif (!$this->isTableEmpty($tableName)) {
+            } elseif ( ! $this->getDb()->isTableEmpty($tableName)) {
                 // The table is not empty
-                $this->log('Skipping seeding of not empty table "' . $tableName . '"');
+                $this->getCli()->writeLn('Skipping seeding of not empty table "' . $tableName . '"');
                 continue;
             }
 
             if (($handle = fopen($csvFile, 'r')) !== false) {
-                $db->beginTransaction();
+                $this->getDb()->beginTransaction();
                 try {
                     if ($tableSql != false) {
-                        $db->exec($tableSql);
+                        $this->getDb()->execute($tableSql);
                         $tableSql = false;
                     }
 
-                    $this->log('Seeding table "' . $tableName . '"');
+                    $this->getCli()->writeLn('Seeding table "' . $tableName . '"');
                     while (($row = fgetcsv($handle, null, ',')) !== false) {
                         if ($csvLine > 0) {
                             $rowAssoc = array_combine($columns, array_values($row));
@@ -86,7 +90,7 @@ class TableCsvImporter extends TableCsvHelper
                             $inserts[] = $rowAssoc;
                             if (count($inserts) >= $maxBulkInserts) {
                                 $numInserts += count($inserts);
-                                $this->insert($tableName, $inserts);
+                                $this->getDb()->insert($tableName, $inserts);
                                 $inserts = [];
                             }
                         }
@@ -95,20 +99,20 @@ class TableCsvImporter extends TableCsvHelper
                     fclose($handle);
                     if (count($inserts) > 0) { // if there is some bulk insert left
                         $numInserts += count($inserts);
-                        $this->insert($tableName, $inserts);
+                        $this->getDb()->insert($tableName, $inserts);
                         $inserts = [];
                     }
-                    $db->commit();
+                    $this->getDb()->commit();
                 } catch (\Exception $e) {
-                    $this->log("WARNING: An SQL error occurred and the transaction will be rolled back.");
-                    $db->rollBack();
+                    $this->getCli()->writeLn("WARNING: An SQL error occurred and the transaction will be rolled back.");
+                    $this->getDb()->rollback();
                     throw $e;
                 }
             }
             if ($numInserts > 0) {
-                $this->log("$numInserts rows inserted in \"$tableName\"");
+                $this->getCli()->writeLn("$numInserts rows inserted in \"$tableName\"");
             } else {
-                $this->log("No rows inserted in \"$tableName\"");
+                $this->getCli()->writeLn("No rows inserted in \"$tableName\"");
             }
         }
     }
@@ -117,13 +121,13 @@ class TableCsvImporter extends TableCsvHelper
     {
         $newData = [];
         foreach ($data as $columnName => $value) {
-            if (!array_key_exists($columnName, $rules)) {
+            if ( ! array_key_exists($columnName, $rules)) {
                 // No rules for this column, add it as it is
                 $newData[$columnName] = $data[$columnName];
                 continue;
             }
             $rule = $rules[$columnName];
-            if (!$rule) {
+            if ( ! $rule) {
                 // Exclude column
                 continue;
             } else {
@@ -131,6 +135,7 @@ class TableCsvImporter extends TableCsvHelper
                 $newData[$rule] = $data[$columnName];
             }
         }
+
         return $newData;
     }
 
@@ -143,23 +148,25 @@ class TableCsvImporter extends TableCsvHelper
      */
     public function getCsvColumns($filename)
     {
-        $filename = $this->getPath() . DIRECTORY_SEPARATOR . $filename;
-        $columns = [];
+        $filename = $this->getCsvPath() . DIRECTORY_SEPARATOR . $filename;
+        $columns  = [];
         if (($handle = fopen($filename, 'r')) !== false) {
             $columns = fgetcsv($handle, null, ',');
             fclose($handle);
         }
+
         return $columns;
     }
 
     private function getTableCreationSql($tableName, $prefixedTableName, array $columnNames)
     {
-        if ($this->hasTable($prefixedTableName)) {
-            $this->log('Skipping table creation: Table "' . $prefixedTableName . '" already exists.');
+        if ($this->getDb()->hasTable($prefixedTableName)) {
+            $this->getCli()->writeLn('Skipping table creation: Table "' . $prefixedTableName . '" already exists.');
+
             return false;
         }
 
-        $this->log('Creating table "' . $prefixedTableName . '"...');
+        $this->getCli()->writeLn('Creating table "' . $prefixedTableName . '"...');
         $sqlFile = $this->getSqlPath() . DIRECTORY_SEPARATOR . $tableName . '.sql';
 
         if ($this->isCacheEnabled() && file_exists($sqlFile)) {
@@ -167,12 +174,12 @@ class TableCsvImporter extends TableCsvHelper
             //return file_get_contents($sqlFile);
         }
 
-        $definitions = [];
-        $indexes = [];
+        $definitions   = [];
+        $indexes       = [];
         $hasPrimaryKey = false;
         foreach ($columnNames as $colName) {
             if (
-                !$hasPrimaryKey
+                ! $hasPrimaryKey
                 && ($colName == 'id' || ($colName == $tableName . '_id'))
             ) {
                 $definitions[] = "`{$colName}` INTEGER unsigned NOT NULL PRIMARY KEY";
@@ -182,7 +189,7 @@ class TableCsvImporter extends TableCsvHelper
                 || (preg_match('/_id$/', $colName))
             ) {
                 $definitions[] = "`{$colName}` INTEGER unsigned";
-                $indexes[] = $colName;
+                $indexes[]     = $colName;
             } elseif (
                 (preg_match('/^is_/', $colName))
                 || (in_array($colName, ['order']))
@@ -199,16 +206,16 @@ class TableCsvImporter extends TableCsvHelper
             }
         }
         $sql = 'CREATE TABLE IF NOT EXISTS ' . $tableName
-            . ' (' . PHP_EOL . '  ' . implode("," . PHP_EOL . '  ', $definitions) . PHP_EOL . ')' . ';' . PHP_EOL;
+               . ' (' . PHP_EOL . '  ' . implode("," . PHP_EOL . '  ', $definitions) . PHP_EOL . ')' . ';' . PHP_EOL;
 
         foreach ($indexes as $colName) {
             $sql .= PHP_EOL . "CREATE INDEX IF NOT EXISTS `idx_${prefixedTableName}_${colName}`" .
-                " ON `$prefixedTableName` (`${colName}`);" . PHP_EOL;
+                    " ON `$prefixedTableName` (`${colName}`);" . PHP_EOL;
         }
         $sql = rtrim($sql, PHP_EOL . '; ') . ';' . PHP_EOL;
 
         if ($this->isCacheEnabled()) {
-            if (!$this->getSqlPath() || !is_dir($this->getSqlPath())) {
+            if ( ! $this->getSqlPath() || ! is_dir($this->getSqlPath())) {
                 throw new \Exception('Cannot export table SQL because the path for storing SQL files
                 does not exist. Table creation aborted.');
             }
@@ -228,11 +235,13 @@ class TableCsvImporter extends TableCsvHelper
 
     /**
      * @param bool|false|string $sqlPath
+     *
      * @return $this
      */
     public function setSqlPath($sqlPath)
     {
         $this->sqlPath = $sqlPath;
+
         return $this;
     }
 }
