@@ -2,8 +2,9 @@
 
 namespace metaunicorn\Pokedata\Orm\Migrations;
 
+use metaunicorn\Pokedata\Behaviors\CliAware;
+use metaunicorn\Pokedata\Behaviors\DbAware;
 use metaunicorn\Pokedata\Cli;
-use metaunicorn\Pokedata\CliAware;
 use metaunicorn\Pokedata\Orm\Db;
 
 /**
@@ -11,37 +12,15 @@ use metaunicorn\Pokedata\Orm\Db;
  * TODO: migrations table to know which ones need to be executed
  * and to detect corrupted/non sequential migrations
  */
-class Migrator extends CliAware
+class Migrator
 {
-    /**
-     * @var Db
-     */
-    private $db;
+    use CliAware;
+    use DbAware;
 
     public function __construct(Db $db, Cli $cli = null)
     {
         $this->setDb($db);
         $this->setCli($cli);
-    }
-
-    /**
-     * @return Db
-     */
-    public function getDb()
-    {
-        return $this->db;
-    }
-
-    /**
-     * @param Db $db
-     *
-     * @return static
-     */
-    public function setDb(Db $db)
-    {
-        $this->db = $db;
-
-        return $this;
     }
 
     public function migrate(array $migrationFiles, $migrationsDir)

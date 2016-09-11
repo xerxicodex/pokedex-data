@@ -2,7 +2,7 @@
 
 namespace metaunicorn\Pokedata\Csv;
 
-use metaunicorn\Pokedata\App;
+use metaunicorn\Pokedata\Orm\Db;
 
 /**
  * Imports CSV files into a SQL database
@@ -19,12 +19,12 @@ class DbImporter extends BaseDbHelper
      *
      * @param string $csvPath
      * @param bool|false|string $sqlPath if FALSE the SQL schema cache will be disabled
-     * @param App $app
+     * @param Db $db
      */
-    public function __construct($csvPath, $sqlPath = false, App $app)
+    public function __construct($csvPath, $sqlPath = false, Db $db)
     {
         $this->setSqlPath($sqlPath);
-        parent::__construct($csvPath, $app);
+        parent::__construct($csvPath, $db);
     }
 
     public function isCacheEnabled()
@@ -42,6 +42,12 @@ class DbImporter extends BaseDbHelper
 
         foreach ($files as $i => $filename) {
             $csvFile            = $this->getCsvPath() . DIRECTORY_SEPARATOR . $filename;
+
+            if(!file_exists($csvFile)){
+                $this->getCli()->writeLn('File "' . $filename . '" does not exist. ' .
+                                         'Skipping import for this file...');
+               continue;
+            }
             $tableNameNoPrefix  = basename($filename, '.csv');
             $tableName          = $tablePrefix . $tableNameNoPrefix;
             $currentColumnRules = array_merge(
@@ -58,7 +64,11 @@ class DbImporter extends BaseDbHelper
 
             if (empty($columns) || empty($newColumns)) {
                 $this->getCli()->writeLn('Something went wrong parsing "' . $filename . '" column names. ' .
-                                         'Skipping import for this file...');
+                                         'Skipping import for this file... The columns where: ');
+                $this->getCli()->writeLn([
+                    'columns' => $columns,
+                    'newColumns' => $newColumns,
+                ]);
                 continue;
             }
 

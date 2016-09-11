@@ -26,7 +26,8 @@ try {
     }
     $app->getCli()->writeLn($message);
     $app->getCli()->setQuiet($mute);
-    $dbImporter = new DbImporter($csvPath, $sqlPath, $app);
+    $dbImporter = new DbImporter($csvPath, $sqlPath, $app->getDb());
+    $dbImporter->getCli()->setQuiet($mute);
     $dbImporter->import(null, $columnRules, 250);
     $app->getCli()->writeLn("DONE!");
 } catch (\Exception $e) {

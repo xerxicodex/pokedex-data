@@ -12,7 +12,7 @@ try {
     // We need to use the temporary (previously migrated) DB to export it to cleaned up CSV
     $app->setDb(Db::getInstance('tmp_db'));
 
-    $dbExporter = new DbExporter($app->getPath('csv'), $app);
+    $dbExporter = new DbExporter($app->getPath('csv'), $app->getDb());
     $dbExporter->export();
     $app->getCli()->writeLn("DONE!");
 } catch (\Exception $e) {

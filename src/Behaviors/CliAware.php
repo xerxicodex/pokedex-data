@@ -1,25 +1,15 @@
 <?php
 
-namespace metaunicorn\Pokedata;
+namespace metaunicorn\Pokedata\Behaviors;
 
-abstract class CliAware
+use metaunicorn\Pokedata\Cli;
+
+trait CliAware
 {
     /**
      * @var Cli
      */
     private $cli;
-
-    /**
-     * @param Cli $cli
-     *
-     * @return static
-     */
-    public function setCli(Cli $cli)
-    {
-        $this->cli = $cli;
-
-        return $this;
-    }
 
     /**
      * @return Cli
@@ -34,6 +24,18 @@ abstract class CliAware
         }
 
         return $this->cli;
+    }
+
+    /**
+     * @param Cli $cli
+     *
+     * @return static
+     */
+    public function setCli(Cli $cli)
+    {
+        $this->cli = $cli;
+
+        return $this;
     }
 
     /**

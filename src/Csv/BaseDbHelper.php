@@ -2,16 +2,17 @@
 
 namespace metaunicorn\Pokedata\Csv;
 
-use metaunicorn\Pokedata\App;
-use metaunicorn\Pokedata\AppAware;
-use metaunicorn\Pokedata\Cli;
+use metaunicorn\Pokedata\Behaviors\CliAware;
+use metaunicorn\Pokedata\Behaviors\DbAware;
 use metaunicorn\Pokedata\Orm\Db;
 
 /**
  * Base class for managing a directory containing CSV files with a DB
  */
-class BaseDbHelper extends AppAware
+class BaseDbHelper
 {
+    use CliAware;
+    use DbAware;
 
     /**
      * @var string
@@ -22,14 +23,13 @@ class BaseDbHelper extends AppAware
      * BaseDbHelper constructor.
      *
      * @param string $csvPath
-     * @param App $app
+     * @param Db $db
      */
-    public function __construct($csvPath, App $app)
+    public function __construct($csvPath, Db $db)
     {
         $this->setCsvPath($csvPath);
-        $this->setApp($app);
+        $this->setDb($db);
     }
-
 
     /**
      * Sets the CSV Path
@@ -74,21 +74,5 @@ class BaseDbHelper extends AppAware
                 && preg_match('/\.csv$/', $path)
             );
         }));
-    }
-
-    /**
-     * @return Db
-     */
-    public function getDb()
-    {
-        return $this->getApp()->getDb();
-    }
-
-    /**
-     * @return Cli
-     */
-    public function getCli()
-    {
-        return $this->getApp()->getCli();
     }
 }

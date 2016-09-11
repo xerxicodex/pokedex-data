@@ -2,24 +2,21 @@
 
 namespace metaunicorn\Pokedata;
 
+use metaunicorn\Pokedata\Behaviors\CliAware;
+use metaunicorn\Pokedata\Behaviors\ConfigAware;
+use metaunicorn\Pokedata\Behaviors\DbAware;
 use metaunicorn\Pokedata\Orm\Db;
 
-class App extends CliAware
+class App
 {
+    use CliAware;
+    use DbAware;
+    use ConfigAware;
+
     /**
      * @var array
      */
     private $paths = [];
-
-    /**
-     * @var Db
-     */
-    private $db;
-
-    /**
-     * @var array
-     */
-    private $config = [];
 
     /**
      * App constructor.
@@ -35,55 +32,12 @@ class App extends CliAware
             throw new \InvalidArgumentException("Invalid directory given: " . $rootPath);
         }
 
-        $this->config = $config;
-
+        $this->setConfig($config);
         $this->initDefaultPaths($realRootPath);
 
         if ($db) {
             $this->setDb($db);
         }
-    }
-
-    /**
-     * @param Db $db
-     *
-     * @return static
-     */
-    public function setDb(Db $db)
-    {
-        $this->db = $db;
-
-        return $this;
-    }
-
-    /**
-     * @return Db
-     */
-    public function getDb()
-    {
-        return $this->db;
-    }
-
-    /**
-     * @param string $name
-     * @param string $value
-     */
-    public function setConfig($name, $value)
-    {
-        $this->config[$name] = $value;
-    }
-
-    /**
-     * @param string $name
-     * Predefined config: table_prefix, csv_import_rules
-     *
-     * @param mixed|null $default
-     *
-     * @return null|string
-     */
-    public function getConfig($name, $default = null)
-    {
-        return isset($this->config[$name]) ? $this->config[$name] : $default;
     }
 
     /**

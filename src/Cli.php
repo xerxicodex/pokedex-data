@@ -123,12 +123,17 @@ class Cli
     }
 
     /**
-     * @param string $text
+     * @param string|mixed $text
      *
      * @return bool
      */
     public function write($text)
     {
+        if ( ! is_scalar($text)) {
+            $text = var_export($text, true);
+        } else {
+            $text = strval($text);
+        }
         if ( ! $this->isQuiet()) {
             print $text;
 
@@ -139,13 +144,21 @@ class Cli
     }
 
     /**
-     * @param string $text
+     * @param string|mixed $text
      *
      * @return bool
      */
     public function writeLn($text)
     {
-        return $this->write($text . PHP_EOL);
+        $this->write($text);
+
+        if ( ! $this->isQuiet()) {
+            print PHP_EOL;
+
+            return true;
+        }
+
+        return false;
     }
 
     /**

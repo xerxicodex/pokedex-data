@@ -1,13 +1,23 @@
 <?php
 
-namespace metaunicorn\Pokedata;
+namespace metaunicorn\Pokedata\Behaviors;
 
-abstract class AppAware
+use metaunicorn\Pokedata\App;
+
+trait AppAware
 {
     /**
      * @var App
      */
     private $app = [];
+
+    /**
+     * @return App
+     */
+    public function getApp()
+    {
+        return $this->app;
+    }
 
     /**
      * @param App $app
@@ -19,13 +29,5 @@ abstract class AppAware
         $this->app = $app;
 
         return $this;
-    }
-
-    /**
-     * @return App
-     */
-    public function getApp()
-    {
-        return $this->app;
     }
 }
