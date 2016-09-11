@@ -3,8 +3,9 @@ CREATE TABLE IF NOT EXISTS move_flavor_text (
   `version_group_id` INTEGER unsigned,
   `language_id` INTEGER unsigned,
   `flavor_text` TEXT
-);
-
+)
+--{options}
+;
 CREATE INDEX IF NOT EXISTS `idx_move_flavor_text_move_id` ON `move_flavor_text` (`move_id`);
 
 CREATE INDEX IF NOT EXISTS `idx_move_flavor_text_version_group_id` ON `move_flavor_text` (`version_group_id`);

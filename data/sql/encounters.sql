@@ -6,8 +6,9 @@ CREATE TABLE IF NOT EXISTS encounters (
   `pokemon_id` INTEGER unsigned,
   `min_level` TEXT,
   `max_level` TEXT
-);
-
+)
+--{options}
+;
 CREATE INDEX IF NOT EXISTS `idx_encounters_version_id` ON `encounters` (`version_id`);
 
 CREATE INDEX IF NOT EXISTS `idx_encounters_location_area_id` ON `encounters` (`location_area_id`);

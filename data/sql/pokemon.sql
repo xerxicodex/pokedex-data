@@ -7,6 +7,7 @@ CREATE TABLE IF NOT EXISTS pokemon (
   `base_experience` TEXT,
   `order` INTEGER unsigned,
   `is_default` INTEGER unsigned
-);
-
+)
+--{options}
+;
 CREATE INDEX IF NOT EXISTS `idx_pokemon_species_id` ON `pokemon` (`species_id`);

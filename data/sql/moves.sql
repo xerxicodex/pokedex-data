@@ -14,8 +14,9 @@ CREATE TABLE IF NOT EXISTS moves (
   `contest_type_id` INTEGER unsigned,
   `contest_effect_id` INTEGER unsigned,
   `super_contest_effect_id` INTEGER unsigned
-);
-
+)
+--{options}
+;
 CREATE INDEX IF NOT EXISTS `idx_moves_generation_id` ON `moves` (`generation_id`);
 
 CREATE INDEX IF NOT EXISTS `idx_moves_type_id` ON `moves` (`type_id`);

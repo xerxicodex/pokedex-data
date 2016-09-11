@@ -9,8 +9,9 @@ CREATE TABLE IF NOT EXISTS berries (
   `growth_time` TEXT,
   `soil_dryness` TEXT,
   `smoothness` TEXT
-);
-
+)
+--{options}
+;
 CREATE INDEX IF NOT EXISTS `idx_berries_item_id` ON `berries` (`item_id`);
 
 CREATE INDEX IF NOT EXISTS `idx_berries_firmness_id` ON `berries` (`firmness_id`);

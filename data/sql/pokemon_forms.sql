@@ -9,8 +9,9 @@ CREATE TABLE IF NOT EXISTS pokemon_forms (
   `is_mega` INTEGER unsigned,
   `form_order` TEXT,
   `order` INTEGER unsigned
-);
-
+)
+--{options}
+;
 CREATE INDEX IF NOT EXISTS `idx_pokemon_forms_pokemon_id` ON `pokemon_forms` (`pokemon_id`);
 
 CREATE INDEX IF NOT EXISTS `idx_pokemon_forms_introduced_in_version_group_id` ON `pokemon_forms` (`introduced_in_version_group_id`);

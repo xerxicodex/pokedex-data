@@ -5,4 +5,6 @@ CREATE TABLE IF NOT EXISTS languages (
   `codename` VARCHAR(255),
   `official` TEXT,
   `order` INTEGER unsigned
-);
+)
+--{options}
+;

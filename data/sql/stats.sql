@@ -4,6 +4,7 @@ CREATE TABLE IF NOT EXISTS stats (
   `codename` VARCHAR(255),
   `is_battle_only` INTEGER unsigned,
   `game_index` TEXT
-);
-
+)
+--{options}
+;
 CREATE INDEX IF NOT EXISTS `idx_stats_damage_class_id` ON `stats` (`damage_class_id`);

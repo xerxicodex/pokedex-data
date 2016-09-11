@@ -55,10 +55,13 @@ class Db
         array $options = [],
         $tablePrefix = ''
     ) {
-        $pdo    = new \PDO($dsn, $username, $password, $options);
         $driver = explode(':', $dsn, 2);
         $driver = strtolower(array_shift($driver));
-        //$driverClass = __NAMESPACE__ . '\\Adapters\\' . ucfirst($driver) . 'DbalAdapter';
+        if ($driver == 'mysql') {
+            // Use UTF-8
+            $options = array_merge([\PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"], $options);
+        }
+        $pdo = new \PDO($dsn, $username, $password, $options);
         $instance = new static($pdo, $driver, $tablePrefix);
 
         return $instance;

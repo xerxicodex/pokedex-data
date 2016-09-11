@@ -19,8 +19,9 @@ CREATE TABLE IF NOT EXISTS pokemon_evolution (
   `trade_species_id` INTEGER unsigned,
   `needs_overworld_rain` TEXT,
   `turn_upside_down` TEXT
-);
-
+)
+--{options}
+;
 CREATE INDEX IF NOT EXISTS `idx_pokemon_evolution_evolved_species_id` ON `pokemon_evolution` (`evolved_species_id`);
 
 CREATE INDEX IF NOT EXISTS `idx_pokemon_evolution_evolution_trigger_id` ON `pokemon_evolution` (`evolution_trigger_id`);

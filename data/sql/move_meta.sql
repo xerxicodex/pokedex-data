@@ -12,8 +12,9 @@ CREATE TABLE IF NOT EXISTS move_meta (
   `ailment_chance` TEXT,
   `flinch_chance` TEXT,
   `stat_chance` TEXT
-);
-
+)
+--{options}
+;
 CREATE INDEX IF NOT EXISTS `idx_move_meta_move_id` ON `move_meta` (`move_id`);
 
 CREATE INDEX IF NOT EXISTS `idx_move_meta_meta_category_id` ON `move_meta` (`meta_category_id`);

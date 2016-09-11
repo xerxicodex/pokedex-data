@@ -41,12 +41,12 @@ class DbImporter extends BaseDbHelper
         }
 
         foreach ($files as $i => $filename) {
-            $csvFile            = $this->getCsvPath() . DIRECTORY_SEPARATOR . $filename;
+            $csvFile = $this->getCsvPath() . DIRECTORY_SEPARATOR . $filename;
 
-            if(!file_exists($csvFile)){
+            if ( ! file_exists($csvFile)) {
                 $this->getCli()->writeLn('File "' . $filename . '" does not exist. ' .
                                          'Skipping import for this file...');
-               continue;
+                continue;
             }
             $tableNameNoPrefix  = basename($filename, '.csv');
             $tableName          = $tablePrefix . $tableNameNoPrefix;
@@ -66,7 +66,7 @@ class DbImporter extends BaseDbHelper
                 $this->getCli()->writeLn('Something went wrong parsing "' . $filename . '" column names. ' .
                                          'Skipping import for this file... The columns where: ');
                 $this->getCli()->writeLn([
-                    'columns' => $columns,
+                    'columns'    => $columns,
                     'newColumns' => $newColumns,
                 ]);
                 continue;
@@ -181,7 +181,9 @@ class DbImporter extends BaseDbHelper
 
         if ($this->isCacheEnabled() && file_exists($sqlFile)) {
             // Load schema file if exists, and continue
-            //return file_get_contents($sqlFile);
+            //$sql = file_get_contents($sqlFile);
+
+            //return $this->addTableCreationOptions($sql);
         }
 
         $definitions   = [];
@@ -216,13 +218,13 @@ class DbImporter extends BaseDbHelper
             }
         }
         $sql = 'CREATE TABLE IF NOT EXISTS ' . $tableName
-               . ' (' . PHP_EOL . '  ' . implode("," . PHP_EOL . '  ', $definitions) . PHP_EOL . ')' . ';' . PHP_EOL;
+               . ' (' . PHP_EOL . '  ' . implode("," . PHP_EOL . '  ',
+                $definitions) . PHP_EOL . ')' . PHP_EOL . '--{options}' . PHP_EOL . ';';
 
         foreach ($indexes as $colName) {
             $sql .= PHP_EOL . "CREATE INDEX IF NOT EXISTS `idx_${prefixedTableName}_${colName}`" .
                     " ON `$prefixedTableName` (`${colName}`);" . PHP_EOL;
         }
-        $sql = rtrim($sql, PHP_EOL . '; ') . ';' . PHP_EOL;
 
         if ($this->isCacheEnabled()) {
             if ( ! $this->getSqlPath() || ! is_dir($this->getSqlPath())) {
@@ -232,7 +234,24 @@ class DbImporter extends BaseDbHelper
             file_put_contents($sqlFile, $sql);
         }
 
-        return $sql;
+        return $this->addTableCreationOptions($sql);
+    }
+
+    private function addTableCreationOptions($sql)
+    {
+        $driver  = $this->getDb()->getDriverName();
+        $options = '';
+
+        switch ($driver) {
+            case 'mysql': {
+                $options = 'ENGINE=InnoDB DEFAULT CHARSET=utf8 DEFAULT COLLATE utf8_unicode_ci';
+            }
+                break;
+            default:
+                return $sql;
+        }
+
+        return str_replace('--{options}', $options, $sql);
     }
 
     /**

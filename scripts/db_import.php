@@ -26,6 +26,10 @@ try {
     }
     $app->getCli()->writeLn($message);
     $app->getCli()->setQuiet($mute);
+
+    // Set proper encoding before writing anything to the SQLite DB
+    $app->getDb()->execute('PRAGMA encoding = "UTF-8";');
+
     $dbImporter = new DbImporter($csvPath, $sqlPath, $app->getDb());
     $dbImporter->getCli()->setQuiet($mute);
     $dbImporter->import(null, $columnRules, 250);

@@ -6,8 +6,9 @@ CREATE TABLE IF NOT EXISTS natures (
   `hates_flavor_id` INTEGER unsigned,
   `likes_flavor_id` INTEGER unsigned,
   `game_index` TEXT
-);
-
+)
+--{options}
+;
 CREATE INDEX IF NOT EXISTS `idx_natures_decreased_stat_id` ON `natures` (`decreased_stat_id`);
 
 CREATE INDEX IF NOT EXISTS `idx_natures_increased_stat_id` ON `natures` (`increased_stat_id`);

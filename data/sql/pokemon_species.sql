@@ -16,8 +16,9 @@ CREATE TABLE IF NOT EXISTS pokemon_species (
   `growth_rate_id` INTEGER unsigned,
   `forms_switchable` TEXT,
   `order` INTEGER unsigned
-);
-
+)
+--{options}
+;
 CREATE INDEX IF NOT EXISTS `idx_pokemon_species_generation_id` ON `pokemon_species` (`generation_id`);
 
 CREATE INDEX IF NOT EXISTS `idx_pokemon_species_evolves_from_species_id` ON `pokemon_species` (`evolves_from_species_id`);
