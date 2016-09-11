@@ -25,14 +25,17 @@ class DbExporter extends BaseDbHelper
             );
         }
         foreach ($tables as $tableName) {
+            if ($this->getDb()->isTableEmpty($tableName)) {
+                $this->getCli()->writeLn("Skipping export of empty table ${tableName} ...");
+                continue;
+            }
+
             $filename = $tablePrefix ? preg_replace('/^/' . $tablePrefix, '', $tableName, 1) : $tableName;
             $csvFile  = rtrim($this->getCsvPath(),
                     DIRECTORY_SEPARATOR . '\\') . DIRECTORY_SEPARATOR . $filename . '.csv';
             if (file_exists($csvFile)) {
                 // Empty the file if exists
                 file_put_contents($csvFile, '');
-            } else {
-                touch($csvFile);
             }
 
             $this->getCli()->writeLn("Exporting table ${tableName} to CSV...");
