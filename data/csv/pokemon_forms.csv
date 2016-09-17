@@ -27,10 +27,10 @@ id,codename,form_identifier,pokemon_id,introduced_in_version_group_id,is_default
 26,raichu,,26,1,1,0,0,1,40
 27,sandshrew,,27,1,1,0,0,1,41
 28,sandslash,,28,1,1,0,0,1,42
-29,nidoran-f,,29,1,1,0,0,1,43
+29,nidoranf,,29,1,1,0,0,1,43
 30,nidorina,,30,1,1,0,0,1,44
 31,nidoqueen,,31,1,1,0,0,1,45
-32,nidoran-m,,32,1,1,0,0,1,46
+32,nidoranm,,32,1,1,0,0,1,46
 33,nidorino,,33,1,1,0,0,1,47
 34,nidoking,,34,1,1,0,0,1,48
 35,clefairy,,35,1,1,0,0,1,50
@@ -120,7 +120,7 @@ id,codename,form_identifier,pokemon_id,introduced_in_version_group_id,is_default
 119,seaking,,119,1,1,0,0,1,154
 120,staryu,,120,1,1,0,0,1,155
 121,starmie,,121,1,1,0,0,1,156
-122,mr-mime,,122,1,1,0,0,1,158
+122,mrmime,,122,1,1,0,0,1,158
 123,scyther,,123,1,1,0,0,1,159
 124,jynx,,124,1,1,0,0,1,163
 125,electabuzz,,125,1,1,0,0,1,165
@@ -248,7 +248,7 @@ id,codename,form_identifier,pokemon_id,introduced_in_version_group_id,is_default
 247,pupitar,,247,3,1,0,0,1,325
 248,tyranitar,,248,3,1,0,0,1,326
 249,lugia,,249,3,1,0,0,1,328
-250,ho-oh,,250,3,1,0,0,1,329
+250,hooh,,250,3,1,0,0,1,329
 251,celebi,,251,3,1,0,0,1,330
 252,treecko,,252,5,1,0,0,1,331
 253,grovyle,,253,5,1,0,0,1,332
@@ -437,7 +437,7 @@ id,codename,form_identifier,pokemon_id,introduced_in_version_group_id,is_default
 436,bronzor,,436,8,1,0,0,1,551
 437,bronzong,,437,8,1,0,0,1,552
 438,bonsly,,438,8,1,0,0,1,239
-439,mime-jr,,439,8,1,0,0,1,157
+439,mimejr,,439,8,1,0,0,1,157
 440,happiny,,440,8,1,0,0,1,143
 441,chatot,,441,8,1,0,0,1,553
 442,spiritomb,,442,8,1,0,0,1,554
@@ -472,7 +472,7 @@ id,codename,form_identifier,pokemon_id,introduced_in_version_group_id,is_default
 471,glaceon,,471,8,1,0,0,1,185
 472,gliscor,,472,8,1,0,0,1,290
 473,mamoswine,,473,8,1,0,0,1,305
-474,porygon-z,,474,8,1,0,0,1,189
+474,porygonz,,474,8,1,0,0,1,189
 475,gallade,,475,8,1,0,0,1,366
 476,probopass,,476,8,1,0,0,1,384
 477,dusknoir,,477,8,1,0,0,1,456
