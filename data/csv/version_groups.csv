@@ -1,4 +1,4 @@
-id,codename,generation_id,order
+id,identifier,generation_id,order
 1,red-blue,1,1
 2,yellow,1,2
 3,gold-silver,2,3

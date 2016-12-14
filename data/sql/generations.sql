@@ -1,7 +1,7 @@
 CREATE TABLE IF NOT EXISTS generations (
   `id` INTEGER unsigned NOT NULL PRIMARY KEY,
   `main_region_id` INTEGER unsigned,
-  `codename` VARCHAR(255)
+  `identifier` VARCHAR(255)
 )
 --{options}
 ;

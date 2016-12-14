@@ -1,7 +1,7 @@
 CREATE TABLE IF NOT EXISTS versions (
   `id` INTEGER unsigned NOT NULL PRIMARY KEY,
   `version_group_id` INTEGER unsigned,
-  `codename` VARCHAR(255)
+  `identifier` VARCHAR(255)
 )
 --{options}
 ;

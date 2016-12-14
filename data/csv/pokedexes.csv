@@ -1,4 +1,4 @@
-id,region_id,codename,is_main_series
+id,region_id,identifier,is_main_series
 1,,national,1
 2,1,kanto,1
 3,2,original-johto,1

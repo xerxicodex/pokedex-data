@@ -1,6 +1,6 @@
 CREATE TABLE IF NOT EXISTS pokemon_forms (
   `id` INTEGER unsigned NOT NULL PRIMARY KEY,
-  `codename` VARCHAR(255),
+  `identifier` VARCHAR(255),
   `form_identifier` TEXT,
   `pokemon_id` INTEGER unsigned,
   `introduced_in_version_group_id` INTEGER unsigned,

@@ -1,7 +1,7 @@
 CREATE TABLE IF NOT EXISTS encounter_condition_values (
   `id` INTEGER unsigned NOT NULL PRIMARY KEY,
   `encounter_condition_id` INTEGER unsigned,
-  `codename` VARCHAR(255),
+  `identifier` VARCHAR(255),
   `is_default` INTEGER unsigned
 )
 --{options}

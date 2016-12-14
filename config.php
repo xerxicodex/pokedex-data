@@ -14,7 +14,7 @@ CSV column rules
 */
 $config['csv_import_rules'] = [
     '*'               => [ // * = global, for all tables
-        'identifier' => 'codename'
+        // Example: 'identifier' => 'shortname'
     ],
     'pokemon_species' => [
         'conquest_order' => false

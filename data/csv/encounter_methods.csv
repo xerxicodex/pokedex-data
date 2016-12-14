@@ -1,4 +1,4 @@
-id,codename,order
+id,identifier,order
 1,walk,1
 2,old-rod,10
 3,good-rod,11

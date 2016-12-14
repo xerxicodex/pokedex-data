@@ -1,4 +1,4 @@
-id,codename,generation_id,damage_class_id
+id,identifier,generation_id,damage_class_id
 1,normal,1,2
 2,fighting,1,2
 3,flying,1,2

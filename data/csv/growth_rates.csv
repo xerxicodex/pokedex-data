@@ -1,4 +1,4 @@
-id,codename,formula
+id,identifier,formula
 1,slow,"\frac{5x^3}{4}"
 2,medium,x^3
 3,fast,"\frac{4x^3}{5}"

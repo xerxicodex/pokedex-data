@@ -1,7 +1,7 @@
 CREATE TABLE IF NOT EXISTS item_categories (
   `id` INTEGER unsigned NOT NULL PRIMARY KEY,
   `pocket_id` INTEGER unsigned,
-  `codename` VARCHAR(255)
+  `identifier` VARCHAR(255)
 )
 --{options}
 ;

@@ -1,6 +1,6 @@
 CREATE TABLE IF NOT EXISTS encounter_conditions (
   `id` INTEGER unsigned NOT NULL PRIMARY KEY,
-  `codename` VARCHAR(255)
+  `identifier` VARCHAR(255)
 )
 --{options}
 ;

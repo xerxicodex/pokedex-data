@@ -1,6 +1,6 @@
 CREATE TABLE IF NOT EXISTS types (
   `id` INTEGER unsigned NOT NULL PRIMARY KEY,
-  `codename` VARCHAR(255),
+  `identifier` VARCHAR(255),
   `generation_id` INTEGER unsigned,
   `damage_class_id` INTEGER unsigned
 )

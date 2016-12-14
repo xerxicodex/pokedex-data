@@ -1,6 +1,6 @@
 CREATE TABLE IF NOT EXISTS items (
   `id` INTEGER unsigned NOT NULL PRIMARY KEY,
-  `codename` VARCHAR(255),
+  `identifier` VARCHAR(255),
   `category_id` INTEGER unsigned,
   `cost` TEXT,
   `fling_power` TEXT,

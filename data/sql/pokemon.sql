@@ -1,6 +1,6 @@
 CREATE TABLE IF NOT EXISTS pokemon (
   `id` INTEGER unsigned NOT NULL PRIMARY KEY,
-  `codename` VARCHAR(255),
+  `identifier` VARCHAR(255),
   `species_id` INTEGER unsigned,
   `height` TEXT,
   `weight` TEXT,

@@ -1,6 +1,6 @@
 CREATE TABLE IF NOT EXISTS version_groups (
   `id` INTEGER unsigned NOT NULL PRIMARY KEY,
-  `codename` VARCHAR(255),
+  `identifier` VARCHAR(255),
   `generation_id` INTEGER unsigned,
   `order` INTEGER unsigned
 )

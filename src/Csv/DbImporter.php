@@ -210,7 +210,7 @@ class DbImporter extends BaseDbHelper
             } elseif (
                 (preg_match('/^name_/', $colName))
                 || (preg_match('/_name$/', $colName))
-                || (in_array($colName, ['identifier', 'codename', 'name', 'slug', 'alias']))
+                || (in_array($colName, ['identifier', 'codename', 'name', 'shortname', 'slug', 'alias']))
             ) {
                 $definitions[] = "`{$colName}` VARCHAR(255)";
             } else {

@@ -1,6 +1,6 @@
 CREATE TABLE IF NOT EXISTS pokemon_species (
   `id` INTEGER unsigned NOT NULL PRIMARY KEY,
-  `codename` VARCHAR(255),
+  `identifier` VARCHAR(255),
   `generation_id` INTEGER unsigned,
   `evolves_from_species_id` INTEGER unsigned,
   `evolution_chain_id` INTEGER unsigned,

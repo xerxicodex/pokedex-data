@@ -1,6 +1,6 @@
 CREATE TABLE IF NOT EXISTS natures (
   `id` INTEGER unsigned NOT NULL PRIMARY KEY,
-  `codename` VARCHAR(255),
+  `identifier` VARCHAR(255),
   `decreased_stat_id` INTEGER unsigned,
   `increased_stat_id` INTEGER unsigned,
   `hates_flavor_id` INTEGER unsigned,

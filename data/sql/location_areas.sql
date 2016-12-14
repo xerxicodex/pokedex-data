@@ -2,7 +2,7 @@ CREATE TABLE IF NOT EXISTS location_areas (
   `id` INTEGER unsigned NOT NULL PRIMARY KEY,
   `location_id` INTEGER unsigned,
   `game_index` TEXT,
-  `codename` VARCHAR(255)
+  `identifier` VARCHAR(255)
 )
 --{options}
 ;
