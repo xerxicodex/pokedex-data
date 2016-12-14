@@ -5,6 +5,8 @@ CREATE TABLE IF NOT EXISTS move_changelog (
   `power` TEXT,
   `pp` TEXT,
   `accuracy` TEXT,
+  `priority` TEXT,
+  `target_id` INTEGER unsigned,
   `effect_id` INTEGER unsigned,
   `effect_chance` TEXT
 )
@@ -15,5 +17,7 @@ CREATE INDEX IF NOT EXISTS `idx_move_changelog_move_id` ON `move_changelog` (`mo
 CREATE INDEX IF NOT EXISTS `idx_move_changelog_changed_in_version_group_id` ON `move_changelog` (`changed_in_version_group_id`);
 
 CREATE INDEX IF NOT EXISTS `idx_move_changelog_type_id` ON `move_changelog` (`type_id`);
+
+CREATE INDEX IF NOT EXISTS `idx_move_changelog_target_id` ON `move_changelog` (`target_id`);
 
 CREATE INDEX IF NOT EXISTS `idx_move_changelog_effect_id` ON `move_changelog` (`effect_id`);
