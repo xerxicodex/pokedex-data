@@ -36,6 +36,7 @@ try {
     $dbImporter->import(null, $columnRules, $maxBulkInserts);
     $app->getCli()->writeLn("DONE!");
 } catch (\Exception $e) {
+    $app->getCli()->setQuiet(false);
     $app->getCli()->writeLn("UNCAUGHT EXCEPTION:" . $e->getMessage());
     exit(1);
 }

@@ -22,6 +22,7 @@ try {
         $app->getCli()->writeLn("");
     }
 } catch (\Exception $e) {
+    $app->getCli()->setQuiet(false);
     $app->getCli()->writeLn("UNCAUGHT EXCEPTION:" . $e->getMessage());
     exit(1);
 }

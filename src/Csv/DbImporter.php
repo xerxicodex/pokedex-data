@@ -114,6 +114,7 @@ class DbImporter extends BaseDbHelper
                     }
                     $this->getDb()->commit();
                 } catch (\Exception $e) {
+                    $this->getCli()->setQuiet(false);
                     $this->getCli()->writeLn("WARNING: An SQL error occurred and the transaction will be rolled back.");
                     $this->getDb()->rollback();
                     throw $e;
