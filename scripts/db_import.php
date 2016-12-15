@@ -30,9 +30,10 @@ try {
     // Set proper encoding before writing anything to the SQLite DB
     $app->getDb()->execute('PRAGMA encoding = "UTF-8";');
 
+    $maxBulkInserts = 10;
     $dbImporter = new DbImporter($csvPath, $sqlPath, $app->getDb());
     $dbImporter->getCli()->setQuiet($mute);
-    $dbImporter->import(null, $columnRules, 250);
+    $dbImporter->import(null, $columnRules, $maxBulkInserts);
     $app->getCli()->writeLn("DONE!");
 } catch (\Exception $e) {
     $app->getCli()->writeLn("UNCAUGHT EXCEPTION:" . $e->getMessage());
