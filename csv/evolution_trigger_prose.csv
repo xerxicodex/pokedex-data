@@ -1,0 +1,13 @@
+id,evolution_trigger_id,local_language_id,name
+1,1,5,"Montée de niveau"
+2,1,6,Levelaufstieg
+3,1,9,"Level up"
+4,2,5,Échange
+5,2,6,Tausch
+6,2,9,Trade
+7,3,5,"Utilisation d'un objet"
+8,3,6,"Gegenstand nutzen"
+9,3,9,"Use item"
+10,4,5,"Place dans l'équipe et une Poké Ball"
+11,4,6,"Platz im Team und ein Pokéball"
+12,4,9,Shed

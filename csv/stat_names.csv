@@ -1,0 +1,49 @@
+id,stat_id,local_language_id,name
+1,1,1,HP
+2,1,5,PV
+3,1,6,KP
+4,1,7,PS
+5,1,8,PS
+6,1,9,HP
+7,2,1,こうげき
+8,2,5,Attaque
+9,2,6,Angriff
+10,2,7,Ataque
+11,2,8,Attacco
+12,2,9,Attack
+13,3,1,ぼうぎょ
+14,3,5,Défense
+15,3,6,Verteidigung
+16,3,7,Defensa
+17,3,8,Difesa
+18,3,9,Defense
+19,4,1,とくこう
+20,4,5,"Attaque Spéciale"
+21,4,6,Spezialangriff
+22,4,7,"Ataque Especial"
+23,4,8,"Attacco Speciale"
+24,4,9,"Special Attack"
+25,5,1,とくぼう
+26,5,5,"Défense Spéciale"
+27,5,6,Spezialverteidigung
+28,5,7,"Defensa Especial"
+29,5,8,"Difesa Speciale"
+30,5,9,"Special Defense"
+31,6,1,すばやさ
+32,6,5,Vitesse
+33,6,6,Initiative
+34,6,7,Velocidad
+35,6,8,Velocità
+36,6,9,Speed
+37,7,1,めいちゅう
+38,7,5,Précision
+39,7,6,Genauigkeit
+40,7,7,Precisión
+41,7,8,precisione
+42,7,9,accuracy
+43,8,1,かいひ
+44,8,5,Esquive
+45,8,6,Fluchtwert
+46,8,7,Evasión
+47,8,8,elusione
+48,8,9,evasion

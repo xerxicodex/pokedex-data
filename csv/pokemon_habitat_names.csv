@@ -1,0 +1,19 @@
+id,pokemon_habitat_id,local_language_id,name
+1,1,5,grottes
+2,1,9,cave
+3,2,5,forêts
+4,2,9,forest
+5,3,5,champs
+6,3,9,grassland
+7,4,5,montagnes
+8,4,9,mountain
+9,5,5,rares
+10,5,9,rare
+11,6,5,"milieux hostiles"
+12,6,9,"rough terrain"
+13,7,5,mers
+14,7,9,sea
+15,8,5,urbains
+16,8,9,urban
+17,9,5,marécages
+18,9,9,"water's edge"

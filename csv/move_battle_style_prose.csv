@@ -1,0 +1,7 @@
+id,move_battle_style_id,local_language_id,name
+1,1,5,Attaque
+2,1,9,Attack
+3,2,5,Défense
+4,2,9,Defense
+5,3,5,Assistance
+6,3,9,Support

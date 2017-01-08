@@ -1,0 +1,131 @@
+id,version_id,local_language_id,name
+1,1,1,赤
+2,1,5,Rouge
+3,1,6,Rot
+4,1,8,Rossa
+5,1,9,Red
+6,2,1,緑
+7,2,5,Bleu
+8,2,6,Blau
+9,2,8,Blu
+10,2,9,Blue
+11,3,1,ピカチュウ
+12,3,5,Jaune
+13,3,6,Gelb
+14,3,8,Gialla
+15,3,9,Yellow
+16,4,1,金
+17,4,5,Or
+18,4,6,Gold
+19,4,8,Oro
+20,4,9,Gold
+21,5,1,銀
+22,5,5,Argent
+23,5,6,Silber
+24,5,8,Argento
+25,5,9,Silver
+26,6,1,クリスタル
+27,6,5,Cristal
+28,6,6,Kristall
+29,6,8,Cristallo
+30,6,9,Crystal
+31,7,1,ルビー
+32,7,5,Rubis
+33,7,6,Rubin
+34,7,8,Rubino
+35,7,9,Ruby
+36,8,1,サファイア
+37,8,5,Saphir
+38,8,6,Saphir
+39,8,8,Zaffiro
+40,8,9,Sapphire
+41,9,1,エメラルド
+42,9,5,Émeraude
+43,9,6,Smaragd
+44,9,8,Smeraldo
+45,9,9,Emerald
+46,10,1,ファイアレッド
+47,10,5,"Rouge Feu"
+48,10,6,Feuerrot
+49,10,8,"Rosso Fuoco"
+50,10,9,FireRed
+51,11,1,リーフグリーン
+52,11,5,"Vert Feuille"
+53,11,6,Blattgrün
+54,11,8,"Verde Foglia"
+55,11,9,LeafGreen
+56,12,1,ダイヤモンド
+57,12,5,Diamant
+58,12,6,Diamant
+59,12,8,Diamante
+60,12,9,Diamond
+61,13,1,パール
+62,13,5,Perle
+63,13,6,Perl
+64,13,8,Perla
+65,13,9,Pearl
+66,14,1,プラチナ
+67,14,5,Platine
+68,14,6,Platin
+69,14,8,Platino
+70,14,9,Platinum
+71,15,1,ハートゴールド
+72,15,5,"Or HeartGold"
+73,15,6,HeartGold
+74,15,8,"Oro HeartGold"
+75,15,9,HeartGold
+76,16,1,ソウルシルバー
+77,16,5,"Argent SoulSilver"
+78,16,6,SoulSilver
+79,16,8,"Argento SoulSilver"
+80,16,9,SoulSilver
+81,17,1,ブラック
+82,17,5,Noir
+83,17,6,Schwarz
+84,17,8,Nera
+85,17,9,Black
+86,18,1,ホワイト
+87,18,5,Blanc
+88,18,6,Weiß
+89,18,8,Bianca
+90,18,9,White
+91,19,1,コロシアム
+92,19,5,Colosseum
+93,19,6,Colosseum
+94,19,8,Colosseum
+95,19,9,Colosseum
+96,20,1,XD
+97,20,5,XD
+98,20,6,XD
+99,20,8,XD
+100,20,9,XD
+101,21,1,ブラック2
+102,21,5,"Noir 2"
+103,21,6,"Schwarz 2"
+104,21,8,"Nera 2"
+105,21,9,"Black 2"
+106,22,1,ホワイト2
+107,22,5,"Blanc 2"
+108,22,6,"Weiß 2"
+109,22,8,"Bianca 2"
+110,22,9,"White 2"
+111,23,1,X
+112,23,5,X
+113,23,6,X
+114,23,8,X
+115,23,9,X
+116,24,1,Y
+117,24,5,Y
+118,24,6,Y
+119,24,8,Y
+120,24,9,Y
+121,25,1,オメガルビー
+122,25,5,"Rubis Oméga"
+123,25,6,"Omega Rubin"
+124,25,8,"Rubino Omega"
+125,25,9,"Omega Ruby"
+126,26,1,アルファサファイア
+127,26,5,"Saphir Alpha"
+128,26,6,"Alpha Saphir"
+129,26,8,"Zaffiro Alpha"
+130,26,9,"Alpha Sapphire"

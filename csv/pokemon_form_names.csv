@@ -1,0 +1,1389 @@
+id,pokemon_form_id,local_language_id,form_name,pokemon_name
+1,201,1,Ａ,
+2,201,3,A,
+3,201,5,A,"Zarbi A"
+4,201,6,A,
+5,201,7,A,
+6,201,8,A,
+7,201,9,A,"Unown A"
+8,386,1,ノーマルフォルム,
+9,386,3,노말폼,
+10,386,5,"Forme Normale","Deoxys Normal"
+11,386,6,Normalform,
+12,386,7,"Forma Normal",
+13,386,8,"Forma Normale",
+14,386,9,"Normal Forme","Normal Deoxys"
+15,412,1,くさきのミノ,
+16,412,3,초목도롱,
+17,412,5,"Cape Plante","Cheniti Plante"
+18,412,6,Pflanzenumhang,
+19,412,7,"Tronco Planta",
+20,412,8,"Manto Pianta",
+21,412,9,"Plant Cloak","Plant Burmy"
+22,413,1,くさきのミノ,
+23,413,3,초목도롱,
+24,413,5,"Cape Plante","Cheniselle Plante"
+25,413,6,Pflanzenumhang,
+26,413,7,"Tronco Planta",
+27,413,8,"Manto Pianta",
+28,413,9,"Plant Cloak","Plant Wormadam"
+29,421,1,ネガフォルム,
+30,421,3,네거폼,
+31,421,5,"Temps Couvert","Ceriflor Couvert"
+32,421,6,Wolkenform,
+33,421,7,"Forma Encapotado",
+34,421,8,"Forma Nuvola",
+35,421,9,"Overcast Form","Overcast Cherrim"
+36,422,1,にしのうみ,
+37,422,3,서쪽바다,
+38,422,5,"Mer Occident","Sancoki Occident"
+39,422,6,"Westliches Meer",
+40,422,7,"Mar Oeste",
+41,422,8,"Mare Ovest",
+42,422,9,"West Sea","West Shellos"
+43,423,1,にしのうみ,
+44,423,3,서쪽바다,
+45,423,5,"Mer Occident","Tritosor Occident"
+46,423,6,"Westliches Meer",
+47,423,7,"Mar Oeste",
+48,423,8,"Mare Ovest",
+49,423,9,"West Sea","West Gastrodon"
+50,487,1,アナザーフォルム,
+51,487,3,어나더폼,
+52,487,5,"Forme Alternative","Giratina Alternative"
+53,487,6,Wandelform,
+54,487,7,"Forma Modificada",
+55,487,8,"Forma Alterata",
+56,487,9,"Altered Forme","Altered Giratina"
+57,492,1,ランドフォルム,
+58,492,3,랜드폼,
+59,492,5,"Forme Terrestre","Shaymin Terrestre"
+60,492,6,Landform,
+61,492,7,"Forma Tierra",
+62,492,8,"Forma Terra",
+63,492,9,"Land Forme","Land Shaymin"
+64,493,1,ノーマルタイプ,
+65,493,5,Normal,"Arceus Normal"
+66,493,6,Normal,
+67,493,7,"Tipo Normal",
+68,493,8,"Tipo Normale",
+69,493,9,"Normal Type","Normal Arceus"
+70,550,1,あかすじのすがた,
+71,550,3,"적색근의 모습",
+72,550,5,"Motif Rouge","Bargantua Rouge"
+73,550,6,"Rotlinige Form",
+74,550,7,"Forma Raya Roja",
+75,550,8,"Forma Linearossa",
+76,550,9,"Red-Striped Form","Red-Striped Basculin"
+77,555,1,ノーマルモード,
+78,555,3,노말모드,
+79,555,5,"Mode Normal","Darumacho Normal"
+80,555,6,Normalmodus,
+81,555,7,"Modo Normal",
+82,555,8,"Forma Normalità",
+83,555,9,"Standard Mode","Standard Darmanitan"
+84,585,1,はるのすがた,
+85,585,3,"봄의 모습",
+86,585,5,"Forme Printemps","Vivaldaim Printemps"
+87,585,6,Frühlingsform,
+88,585,7,"Forma Primavera",
+89,585,8,"Forma Primavera",
+90,585,9,"Spring Form","Spring Deerling"
+91,586,1,はるのすがた,
+92,586,3,"봄의 모습",
+93,586,5,"Forme Printemps","Haydaim Printemps"
+94,586,6,Frühlingsform,
+95,586,7,"Forma Primavera",
+96,586,8,"Forma Primavera",
+97,586,9,"Spring Form","Spring Sawsbuck"
+98,641,1,けしんフォルム,
+99,641,3,화신폼,
+100,641,5,"Forme Avatar","Boréas Avatar"
+101,641,6,Inkarnationsform,
+102,641,7,"Forma Avatar",
+103,641,8,"Forma Incarnazione",
+104,641,9,"Incarnate Forme","Incarnate Tornadus"
+105,642,1,けしんフォルム,
+106,642,3,화신폼,
+107,642,5,"Forme Avatar","Fulguris Avatar"
+108,642,6,Inkarnationsform,
+109,642,7,"Forma Avatar",
+110,642,8,"Forma Incarnazione",
+111,642,9,"Incarnate Forme","Incarnate Thundurus"
+112,645,1,けしんフォルム,
+113,645,3,화신폼,
+114,645,5,"Forme Avatar","Démétéros Avatar"
+115,645,6,Inkarnationsform,
+116,645,7,"Forma Avatar",
+117,645,8,"Forma Incarnazione",
+118,645,9,"Incarnate Forme","Incarnate Landorus"
+119,647,1,いつものすがた,
+120,647,3,"평상시 모습",
+121,647,5,"Aspect Normal","Keldeo Normal"
+122,647,6,Standardform,
+123,647,7,"Forma Habitual",
+124,647,8,"Forma Normale",
+125,647,9,"Ordinary Form","Ordinary Keldeo"
+126,648,1,ボイスフォルム,
+127,648,3,보이스폼,
+128,648,5,"Forme Chant","Meloetta Chant"
+129,648,6,Gesangsform,
+130,648,7,"Forma Lírica",
+131,648,8,"Forma Canto",
+132,648,9,"Aria Forme","Aria Meloetta"
+133,666,1,はなぞののもよう,
+134,666,3,"화원의 모양",
+135,666,5,"Motif Floraison","Prismillon Floraison"
+136,666,6,Blumenmeermuster,
+137,666,7,"Motivo Floral",
+138,666,8,"Motivo Giardinfiore",
+139,666,9,"Meadow Pattern","Meadow Vivillon"
+140,669,1,あかいはな,
+141,669,3,"빨간 꽃",
+142,669,5,"Fleur Rouge","Flabébé Rouge"
+143,669,6,Rotblütler,
+144,669,7,"Flor Roja",
+145,669,8,"Fiore Rosso",
+146,669,9,"Red Flower","Red Flabébé"
+147,670,1,あかいはな,
+148,670,3,"빨간 꽃",
+149,670,5,"Fleur Rouge","Floette Rouge"
+150,670,6,Rotblütler,
+151,670,7,"Flor Roja",
+152,670,8,"Fiore Rosso",
+153,670,9,"Red Flower","Red Floette"
+154,671,1,あかいはな,
+155,671,3,"빨간 꽃",
+156,671,5,"Fleur Rouge","Florges Rouge"
+157,671,6,Rotblütler,
+158,671,7,"Flor Roja",
+159,671,8,"Fiore Rosso",
+160,671,9,"Red Flower","Red Florges"
+161,676,1,やせいのすがた,
+162,676,3,"야생의 모습",
+163,676,5,"Forme Sauvage","Couafarel Sauvage"
+164,676,6,Zottelform,
+165,676,7,"Forma Salvaje",
+166,676,8,"Forma Selvatica",
+167,676,9,"Natural Form","Natural Furfrou"
+168,678,1,オスのすがた,
+169,678,3,"수컷의 모습",
+170,678,5,Mâle,"Mistigrix Mâle"
+171,678,6,Männlich,
+172,678,7,Macho,
+173,678,8,Maschio,
+174,678,9,Male,"Male Meowstic"
+175,681,1,シールドフォルム,
+176,681,3,실드폼,
+177,681,5,"Forme Parade","Exagide Parade"
+178,681,6,Schildform,
+179,681,7,"Forma Escudo",
+180,681,8,"Forma Scudo",
+181,681,9,"Shield Forme","Shield Aegislash"
+182,710,1,ふつうのサイズ,
+183,710,3,"보통 사이즈",
+184,710,5,"Taille Normale","Pitrouille Normal"
+185,710,6,"Größe M",
+186,710,7,"Tamaño Normal",
+187,710,8,Normale,
+188,710,9,"Average Size","Average Pumpkaboo"
+189,711,1,ふつうのサイズ,
+190,711,3,"보통 사이즈",
+191,711,5,"Taille Normale","Banshitrouye Normal"
+192,711,6,"Größe M",
+193,711,7,"Tamaño Normal",
+194,711,8,Normale,
+195,711,9,"Average Size","Average Gourgeist"
+196,716,1,アクティブモード,
+197,716,3,액티브모드,
+198,716,5,"Mode Déchaîné","Xerneas Déchaîné"
+199,716,6,Aktiv-Modus,
+200,716,7,"Modo Activo",
+201,716,8,"Modo Attivo",
+202,716,9,"Active Mode","Active Xerneas"
+203,10001,1,Ｂ,
+204,10001,3,B,
+205,10001,5,B,"Zarbi B"
+206,10001,6,B,
+207,10001,7,B,
+208,10001,8,B,
+209,10001,9,B,"Unown B"
+210,10002,1,Ｃ,
+211,10002,3,C,
+212,10002,5,C,"Zarbi C"
+213,10002,6,C,
+214,10002,7,C,
+215,10002,8,C,
+216,10002,9,C,"Unown C"
+217,10003,1,Ｄ,
+218,10003,3,D,
+219,10003,5,D,"Zarbi D"
+220,10003,6,D,
+221,10003,7,D,
+222,10003,8,D,
+223,10003,9,D,"Unown D"
+224,10004,1,Ｅ,
+225,10004,3,E,
+226,10004,5,E,"Zarbi E"
+227,10004,6,E,
+228,10004,7,E,
+229,10004,8,E,
+230,10004,9,E,"Unown E"
+231,10005,1,Ｆ,
+232,10005,3,F,
+233,10005,5,F,"Zarbi F"
+234,10005,6,F,
+235,10005,7,F,
+236,10005,8,F,
+237,10005,9,F,"Unown F"
+238,10006,1,Ｇ,
+239,10006,3,G,
+240,10006,5,G,"Zarbi G"
+241,10006,6,G,
+242,10006,7,G,
+243,10006,8,G,
+244,10006,9,G,"Unown G"
+245,10007,1,Ｈ,
+246,10007,3,H,
+247,10007,5,H,"Zarbi H"
+248,10007,6,H,
+249,10007,7,H,
+250,10007,8,H,
+251,10007,9,H,"Unown H"
+252,10008,1,Ｉ,
+253,10008,3,I,
+254,10008,5,I,"Zarbi I"
+255,10008,6,I,
+256,10008,7,I,
+257,10008,8,I,
+258,10008,9,I,"Unown I"
+259,10009,1,Ｊ,
+260,10009,3,J,
+261,10009,5,J,"Zarbi J"
+262,10009,6,J,
+263,10009,7,J,
+264,10009,8,J,
+265,10009,9,J,"Unown J"
+266,10010,1,Ｋ,
+267,10010,3,K,
+268,10010,5,K,"Zarbi K"
+269,10010,6,K,
+270,10010,7,K,
+271,10010,8,K,
+272,10010,9,K,"Unown K"
+273,10011,1,Ｌ,
+274,10011,3,L,
+275,10011,5,L,"Zarbi L"
+276,10011,6,L,
+277,10011,7,L,
+278,10011,8,L,
+279,10011,9,L,"Unown L"
+280,10012,1,Ｍ,
+281,10012,3,M,
+282,10012,5,M,"Zarbi M"
+283,10012,6,M,
+284,10012,7,M,
+285,10012,8,M,
+286,10012,9,M,"Unown M"
+287,10013,1,Ｎ,
+288,10013,3,N,
+289,10013,5,N,"Zarbi N"
+290,10013,6,N,
+291,10013,7,N,
+292,10013,8,N,
+293,10013,9,N,"Unown N"
+294,10014,1,Ｏ,
+295,10014,3,O,
+296,10014,5,O,"Zarbi O"
+297,10014,6,O,
+298,10014,7,O,
+299,10014,8,O,
+300,10014,9,O,"Unown O"
+301,10015,1,Ｐ,
+302,10015,3,P,
+303,10015,5,P,"Zarbi P"
+304,10015,6,P,
+305,10015,7,P,
+306,10015,8,P,
+307,10015,9,P,"Unown P"
+308,10016,1,Ｑ,
+309,10016,3,Q,
+310,10016,5,Q,"Zarbi Q"
+311,10016,6,Q,
+312,10016,7,Q,
+313,10016,8,Q,
+314,10016,9,Q,"Unown Q"
+315,10017,1,Ｒ,
+316,10017,3,R,
+317,10017,5,R,"Zarbi R"
+318,10017,6,R,
+319,10017,7,R,
+320,10017,8,R,
+321,10017,9,R,"Unown R"
+322,10018,1,Ｓ,
+323,10018,3,S,
+324,10018,5,S,"Zarbi S"
+325,10018,6,S,
+326,10018,7,S,
+327,10018,8,S,
+328,10018,9,S,"Unown S"
+329,10019,1,Ｔ,
+330,10019,3,T,
+331,10019,5,T,"Zarbi T"
+332,10019,6,T,
+333,10019,7,T,
+334,10019,8,T,
+335,10019,9,T,"Unown T"
+336,10020,1,Ｕ,
+337,10020,3,U,
+338,10020,5,U,"Zarbi U"
+339,10020,6,U,
+340,10020,7,U,
+341,10020,8,U,
+342,10020,9,U,"Unown U"
+343,10021,1,Ｖ,
+344,10021,3,V,
+345,10021,5,V,"Zarbi V"
+346,10021,6,V,
+347,10021,7,V,
+348,10021,8,V,
+349,10021,9,V,"Unown V"
+350,10022,1,Ｗ,
+351,10022,3,W,
+352,10022,5,W,"Zarbi W"
+353,10022,6,W,
+354,10022,7,W,
+355,10022,8,W,
+356,10022,9,W,"Unown W"
+357,10023,1,Ｘ,
+358,10023,3,X,
+359,10023,5,X,"Zarbi X"
+360,10023,6,X,
+361,10023,7,X,
+362,10023,8,X,
+363,10023,9,X,"Unown X"
+364,10024,1,Ｙ,
+365,10024,3,Y,
+366,10024,5,Y,"Zarbi Y"
+367,10024,6,Y,
+368,10024,7,Y,
+369,10024,8,Y,
+370,10024,9,Y,"Unown Y"
+371,10025,1,Ｚ,
+372,10025,3,Z,
+373,10025,5,Z,"Zarbi Z"
+374,10025,6,Z,
+375,10025,7,Z,
+376,10025,8,Z,
+377,10025,9,Z,"Unown Z"
+378,10026,1,!,
+379,10026,3,!,
+380,10026,5,!,"Zarbi !"
+381,10026,6,!,
+382,10026,7,!,
+383,10026,8,!,
+384,10026,9,!,"Unown !"
+385,10027,1,?,
+386,10027,3,?,
+387,10027,5,?,"Zarbi ?"
+388,10027,6,?,
+389,10027,7,?,
+390,10027,8,?,
+391,10027,9,?,"Unown ?"
+392,10028,1,たいようのすがた,
+393,10028,3,"태양의 모습",
+394,10028,5,"Forme Solaire","Morphéo Solaire"
+395,10028,6,Sonnenform,
+396,10028,7,"Forma Sol",
+397,10028,8,"Forma Sole",
+398,10028,9,"Sunny Form","Sunny Castform"
+399,10029,1,あまみずのすがた,
+400,10029,3,"빗방울의 모습",
+401,10029,5,"Forme Eau de Pluie","Morphéo Eau de Pluie"
+402,10029,6,Regenform,
+403,10029,7,"Forma Lluvia",
+404,10029,8,"Forma Pioggia",
+405,10029,9,"Rainy Form","Rainy Castform"
+406,10030,1,ゆきぐものすがた,
+407,10030,3,"설운의 모습",
+408,10030,5,"Forme Blizzard","Morphéo Blizzard"
+409,10030,6,Schneeform,
+410,10030,7,"Forma Nieve",
+411,10030,8,"Forma Nuvola di Neve",
+412,10030,9,"Snowy Form","Snowy Castform"
+413,10031,1,アタックフォルム,
+414,10031,3,어택폼,
+415,10031,5,"Forme Attaque","Deoxys Attaque"
+416,10031,6,Angriffsform,
+417,10031,7,"Forma Ataque",
+418,10031,8,"Forma Attacco",
+419,10031,9,"Attack Forme","Attack Deoxys"
+420,10032,1,ディフェンスフォルム,
+421,10032,3,디펜스폼,
+422,10032,5,"Forme Défense","Deoxys Défense"
+423,10032,6,Verteidigungsform,
+424,10032,7,"Forma Defensa",
+425,10032,8,"Forma Difesa",
+426,10032,9,"Defense Forme","Defense Deoxys"
+427,10033,1,スピードフォルム,
+428,10033,3,스피드폼,
+429,10033,5,"Forme Vitesse","Deoxys Vitesse"
+430,10033,6,Initiativeform,
+431,10033,7,"Forma Velocidad",
+432,10033,8,"Forma Velocità",
+433,10033,9,"Speed Forme","Speed Deoxys"
+434,10034,1,すなちのミノ,
+435,10034,3,모래땅도롱,
+436,10034,5,"Cape Sable","Cheniti Sable"
+437,10034,6,Sandumhang,
+438,10034,7,"Tronco Arena",
+439,10034,8,"Manto Sabbia",
+440,10034,9,"Sandy Cloak","Sandy Burmy"
+441,10035,1,ゴミのミノ,
+442,10035,3,슈레도롱,
+443,10035,5,"Cape Déchet","Cheniti Déchet"
+444,10035,6,Lumpenumhang,
+445,10035,7,"Tronco Basura",
+446,10035,8,"Manto Scarti",
+447,10035,9,"Trash Cloak","Trash Burmy"
+448,10036,1,すなちのミノ,
+449,10036,3,모래땅도롱,
+450,10036,5,"Cape Sable","Cheniselle Sable"
+451,10036,6,Sandumhang,
+452,10036,7,"Tronco Arena",
+453,10036,8,"Manto Sabbia",
+454,10036,9,"Sandy Cloak","Sandy Wormadam"
+455,10037,1,ゴミのミノ,
+456,10037,3,슈레도롱,
+457,10037,5,"Cape Déchet","Cheniselle Déchet"
+458,10037,6,Lumpenumhang,
+459,10037,7,"Tronco Basura",
+460,10037,8,"Manto Scarti",
+461,10037,9,"Trash Cloak","Trash Wormadam"
+462,10038,1,ポジフォルム,
+463,10038,3,포지폼,
+464,10038,5,"Temps Ensoleillé","Ceriflor Ensoleillé"
+465,10038,6,Sonnenform,
+466,10038,7,"Forma Soleado",
+467,10038,8,"Forma Splendore",
+468,10038,9,"Sunshine Form","Sunshine Cherrim"
+469,10039,1,ひがしのうみ,
+470,10039,3,동쪽바다,
+471,10039,5,"Mer Orient","Sancoki Orient"
+472,10039,6,"Östliches Meer",
+473,10039,7,"Mar Este",
+474,10039,8,"Mare Est",
+475,10039,9,"East Sea","East Shellos"
+476,10040,1,ひがしのうみ,
+477,10040,3,동쪽바다,
+478,10040,5,"Mer Orient","Tritosor Orient"
+479,10040,6,"Östliches Meer",
+480,10040,7,"Mar Este",
+481,10040,8,"Mare Est",
+482,10040,9,"East Sea","East Gastrodon"
+483,10041,1,むしタイプ,
+484,10041,5,Insecte,"Arceus Insecte"
+485,10041,6,Käfer,
+486,10041,7,"Tipo Bicho",
+487,10041,8,"Tipo Coleottero",
+488,10041,9,"Bug Type","Bug Arceus"
+489,10042,1,あくタイプ,
+490,10042,5,Ténèbres,"Arceus Ténèbres"
+491,10042,6,Unlicht,
+492,10042,7,"Tipo Siniestro",
+493,10042,8,"Tipo Buio",
+494,10042,9,"Dark Type","Dark Arceus"
+495,10043,1,ドラゴンタイプ,
+496,10043,5,Dragon,"Arceus Dragon"
+497,10043,6,Drache,
+498,10043,7,"Tipo Dragón",
+499,10043,8,"Tipo Drago",
+500,10043,9,"Dragon Type","Dragon Arceus"
+501,10044,1,でんきタイプ,
+502,10044,5,Électrik,"Arceus Électrik"
+503,10044,6,Elektro,
+504,10044,7,"Tipo Eléctrico",
+505,10044,8,"Tipo Elettro",
+506,10044,9,"Electric Type","Electric Arceus"
+507,10045,1,かくとうタイプ,
+508,10045,5,Combat,"Arceus Combat"
+509,10045,6,Kampf,
+510,10045,7,"Tipo Lucha",
+511,10045,8,"Tipo Lotta",
+512,10045,9,"Fighting Type","Fighting Arceus"
+513,10046,1,ほのおタイプ,
+514,10046,5,Feu,"Arceus Feu"
+515,10046,6,Feuer,
+516,10046,7,"Tipo Fuego",
+517,10046,8,"Tipo Fuoco",
+518,10046,9,"Fire Type","Fire Arceus"
+519,10047,1,ひこうタイプ,
+520,10047,5,Vol,"Arceus Vol"
+521,10047,6,Flug,
+522,10047,7,"Tipo Volador",
+523,10047,8,"Tipo Volante",
+524,10047,9,"Flying Type","Flying Arceus"
+525,10048,1,ゴーストタイプ,
+526,10048,5,Spectre,"Arceus Spectre"
+527,10048,6,Geist,
+528,10048,7,"Tipo Fantasma",
+529,10048,8,"Tipo Spettro",
+530,10048,9,"Ghost Type","Ghost Arceus"
+531,10049,1,くさタイプ,
+532,10049,5,Plante,"Arceus Plante"
+533,10049,6,Pflanze,
+534,10049,7,"Tipo Planta",
+535,10049,8,"Tipo Erba",
+536,10049,9,"Grass Type","Grass Arceus"
+537,10050,1,じめんタイプ,
+538,10050,5,Sol,"Arceus Sol"
+539,10050,6,Boden,
+540,10050,7,"Tipo Tierra",
+541,10050,8,"Tipo Terra",
+542,10050,9,"Ground Type","Ground Arceus"
+543,10051,1,こおりタイプ,
+544,10051,5,Glace,"Arceus Glace"
+545,10051,6,Eis,
+546,10051,7,"Tipo Hielo",
+547,10051,8,"Tipo Ghiaccio",
+548,10051,9,"Ice Type","Ice Arceus"
+549,10052,1,どくタイプ,
+550,10052,5,Poison,"Arceus Poison"
+551,10052,6,Gift,
+552,10052,7,"Tipo Veneno",
+553,10052,8,"Tipo Veleno",
+554,10052,9,"Poison Type","Poison Arceus"
+555,10053,1,エスパータイプ,
+556,10053,5,Psy,"Arceus Psy"
+557,10053,6,Psycho,
+558,10053,7,"Tipo Psíquico",
+559,10053,8,"Tipo Psico",
+560,10053,9,"Psychic Type","Psychic Arceus"
+561,10054,1,いわタイプ,
+562,10054,5,Roche,"Arceus Roche"
+563,10054,6,Gestein,
+564,10054,7,"Tipo Roca",
+565,10054,8,"Tipo Roccia",
+566,10054,9,"Rock Type","Rock Arceus"
+567,10055,1,はがねタイプ,
+568,10055,5,Acier,"Arceus Acier"
+569,10055,6,Stahl,
+570,10055,7,"Tipo Acero",
+571,10055,8,"Tipo Acciaio",
+572,10055,9,"Steel Type","Steel Arceus"
+573,10056,1,みずタイプ,
+574,10056,5,Eau,"Arceus Eau"
+575,10056,6,Wasser,
+576,10056,7,"Tipo Agua",
+577,10056,8,"Tipo Acqua",
+578,10056,9,"Water Type","Water Arceus"
+579,10057,1,？？？タイプ,
+580,10057,5,???,"Arceus ???"
+581,10057,6,???,
+582,10057,7,"Tipo ???",
+583,10057,8,"Tipo ???",
+584,10057,9,"??? Type","??? Arceus"
+585,10058,1,ヒートロトム,
+586,10058,3,히트로토무,
+587,10058,5,"Motisma Chaleur","Motisma Chaleur"
+588,10058,6,Hitze-Rotom,
+589,10058,7,"Rotom Calor",
+590,10058,8,"Rotom Calore",
+591,10058,9,"Heat Rotom","Heat Rotom"
+592,10059,1,ウォッシュロトム,
+593,10059,3,워시로토무,
+594,10059,5,"Motisma Lavage","Motisma Lavage"
+595,10059,6,Wasch-Rotom,
+596,10059,7,"Rotom Lavado",
+597,10059,8,"Rotom Lavaggio",
+598,10059,9,"Wash Rotom","Wash Rotom"
+599,10060,1,フロストロトム,
+600,10060,3,프로스트로토무,
+601,10060,5,"Motisma Froid","Motisma Froid"
+602,10060,6,Frost-Rotom,
+603,10060,7,"Rotom Frío",
+604,10060,8,"Rotom Gelo",
+605,10060,9,"Frost Rotom","Frost Rotom"
+606,10061,1,スピンロトム,
+607,10061,3,스핀로토무,
+608,10061,5,"Motisma Hélice","Motisma Hélice"
+609,10061,6,Wirbel-Rotom,
+610,10061,7,"Rotom Ventilador",
+611,10061,8,"Rotom Vortice",
+612,10061,9,"Fan Rotom","Fan Rotom"
+613,10062,1,カットロトム,
+614,10062,3,커트로토무,
+615,10062,5,"Motisma Tonte","Motisma Tonte"
+616,10062,6,Schneid-Rotom,
+617,10062,7,"Rotom Corte",
+618,10062,8,"Rotom Taglio",
+619,10062,9,"Mow Rotom","Mow Rotom"
+620,10063,1,オリジンフォルム,
+621,10063,3,오리진폼,
+622,10063,5,"Forme Originelle","Giratina Originel"
+623,10063,6,Urform,
+624,10063,7,"Forma Origen",
+625,10063,8,"Forma Originale",
+626,10063,9,"Origin Forme","Origin Giratina"
+627,10064,1,スカイフォルム,
+628,10064,3,스카이폼,
+629,10064,5,"Forme Céleste","Shaymin Céleste"
+630,10064,6,Zenitform,
+631,10064,7,"Forma Cielo",
+632,10064,8,"Forma Cielo",
+633,10064,9,"Sky Forme","Sky Shaymin"
+634,10065,5,Troizépi,"Pichu Troizépi"
+635,10065,9,Spiky-eared,"Spiky-eared Pichu"
+636,10066,1,あおすじのすがた,
+637,10066,3,"청색근의 모습",
+638,10066,5,"Motif Bleu","Bargantua Bleu"
+639,10066,6,"Blaulinige Form",
+640,10066,7,"Forma Raya Azul",
+641,10066,8,"Forma Lineablu",
+642,10066,9,"Blue-Striped Form","Blue-Striped Basculin"
+643,10067,1,ダルマモード,
+644,10067,3,달마모드,
+645,10067,5,"Mode Transe","Darumacho Transe"
+646,10067,6,Trance-Modus,
+647,10067,7,"Modo Daruma",
+648,10067,8,"Stato Zen",
+649,10067,9,"Zen Mode","Zen Darmanitan"
+650,10068,1,なつのすがた,
+651,10068,3,"여름의 모습",
+652,10068,5,"Forme Été","Vivaldaim Été"
+653,10068,6,Sommerform,
+654,10068,7,"Forma Verano",
+655,10068,8,"Forma Estate",
+656,10068,9,"Summer Form","Summer Deerling"
+657,10069,1,あきのすがた,
+658,10069,3,"가을의 모습",
+659,10069,5,"Forme Automne","Vivaldaim Automne"
+660,10069,6,Herbstform,
+661,10069,7,"Forma Otoño",
+662,10069,8,"Forma Autunno",
+663,10069,9,"Autumn Form","Autumn Deerling"
+664,10070,1,ふゆのすがた,
+665,10070,3,"겨울의 모습",
+666,10070,5,"Forme Hiver","Vivaldaim Hiver"
+667,10070,6,Winterform,
+668,10070,7,"Forma Invierno",
+669,10070,8,"Forma Inverno",
+670,10070,9,"Winter Form","Winter Deerling"
+671,10071,1,なつのすがた,
+672,10071,3,"여름의 모습",
+673,10071,5,"Forme Été","Haydaim Été"
+674,10071,6,Sommerform,
+675,10071,7,"Forma Verano",
+676,10071,8,"Forma Estate",
+677,10071,9,"Summer Form","Summer Sawsbuck"
+678,10072,1,あきのすがた,
+679,10072,3,"가을의 모습",
+680,10072,5,"Forme Automne","Haydaim Automne"
+681,10072,6,Herbstform,
+682,10072,7,"Forma Otoño",
+683,10072,8,"Forma Autunno",
+684,10072,9,"Autumn Form","Autumn Sawsbuck"
+685,10073,1,ふゆのすがた,
+686,10073,3,"겨울의 모습",
+687,10073,5,"Forme Hiver","Haydaim Hiver"
+688,10073,6,Winterform,
+689,10073,7,"Forma Invierno",
+690,10073,8,"Forma Inverno",
+691,10073,9,"Winter Form","Winter Sawsbuck"
+692,10074,1,ステップフォルム,
+693,10074,3,스텝폼,
+694,10074,5,"Forme Danse","Meloetta Danse"
+695,10074,6,Tanzform,
+696,10074,7,"Forma Danza",
+697,10074,8,"Forma Danza",
+698,10074,9,"Pirouette Forme","Pirouette Meloetta"
+699,10075,1,アクアカセット,
+700,10075,3,아쿠아카세트,
+701,10075,5,"Module Aqua","Genesect Aqua"
+702,10075,6,Aquamodul,
+703,10075,7,HidroROM,
+704,10075,8,Idromodulo,
+705,10075,9,"Douse Drive","Douse Genesect"
+706,10076,1,イナズマカセット,
+707,10076,3,번개카세트,
+708,10076,5,"Module Choc","Genesect Choc"
+709,10076,6,Blitzmodul,
+710,10076,7,FulgoROM,
+711,10076,8,Voltmodulo,
+712,10076,9,"Shock Drive","Shock Genesect"
+713,10077,1,ブレイズカセット,
+714,10077,3,블레이즈카세트,
+715,10077,5,"Module Pyro","Genesect Pyro"
+716,10077,6,Flammenmodul,
+717,10077,7,PiroROM,
+718,10077,8,Piromodulo,
+719,10077,9,"Burn Drive","Burn Genesect"
+720,10078,1,フリーズカセット,
+721,10078,3,프리즈카세트,
+722,10078,5,"Module Cryo","Genesect Cryo"
+723,10078,6,Gefriermodul,
+724,10078,7,CrioROM,
+725,10078,8,Gelomodulo,
+726,10078,9,"Chill Drive","Chill Genesect"
+727,10079,1,れいじゅうフォルム,
+728,10079,3,영물폼,
+729,10079,5,"Forme Totémique","Boréas Totémique"
+730,10079,6,Tiergeistform,
+731,10079,7,"Forma Tótem",
+732,10079,8,"Forma Totem",
+733,10079,9,"Therian Forme","Therian Tornadus"
+734,10080,1,れいじゅうフォルム,
+735,10080,3,영물폼,
+736,10080,5,"Forme Totémique","Fulguris Totémique"
+737,10080,6,Tiergeistform,
+738,10080,7,"Forma Tótem",
+739,10080,8,"Forma Totem",
+740,10080,9,"Therian Forme","Therian Thundurus"
+741,10081,1,れいじゅうフォルム,
+742,10081,3,영물폼,
+743,10081,5,"Forme Totémique","Démétéros Totémique"
+744,10081,6,Tiergeistform,
+745,10081,7,"Forma Tótem",
+746,10081,8,"Forma Totem",
+747,10081,9,"Therian Forme","Therian Landorus"
+748,10082,1,ブラックキュレム,
+749,10082,3,블랙큐레무,
+750,10082,5,"Kyurem Noir","Kyurem Noir"
+751,10082,6,"Schwarzes Kyurem",
+752,10082,7,"Kyurem Negro",
+753,10082,8,"Kyurem Nero",
+754,10082,9,"Black Kyurem","Black Kyurem"
+755,10083,1,ホワイトキュレム,
+756,10083,3,화이트큐레무,
+757,10083,5,"Kyurem Blanc","Kyurem Blanc"
+758,10083,6,"Weißes Kyurem",
+759,10083,7,"Kyurem Blanco",
+760,10083,8,"Kyurem Bianco",
+761,10083,9,"White Kyurem","White Kyurem"
+762,10084,1,かくごのすがた,
+763,10084,3,"각오의 모습",
+764,10084,5,"Aspect Décidé","Keldeo Décidé"
+765,10084,6,Resolutform,
+766,10084,7,"Forma Brío",
+767,10084,8,"Forma Risoluta",
+768,10084,9,"Resolute Form","Resolute Keldeo"
+769,10085,1,フェアリータイプ,
+770,10085,5,Fée,"Arceus Fée"
+771,10085,6,Fee,
+772,10085,7,"Tipo Hada",
+773,10085,8,"Tipo Folletto",
+774,10085,9,"Fairy Type","Fairy Arceus"
+775,10086,1,ひょうせつのもよう,
+776,10086,3,"빙설의 모양",
+777,10086,5,"Motif Blizzard","Prismillon Blizzard"
+778,10086,6,Frostmuster,
+779,10086,7,"Motivo Polar",
+780,10086,8,"Motivo Nevi Perenni",
+781,10086,9,"Icy Snow Pattern","Icy Snow Vivillon"
+782,10087,1,ゆきぐにのもよう,
+783,10087,3,"설국의 모양",
+784,10087,5,"Motif Banquise","Prismillon Banquise"
+785,10087,6,Schneefeldmuster,
+786,10087,7,"Motivo Taiga",
+787,10087,8,"Motivo Nordico",
+788,10087,9,"Polar Pattern","Polar Vivillon"
+789,10088,1,せつげんのもよう,
+790,10088,3,"설원의 모양",
+791,10088,5,"Motif Glace","Prismillon Glace"
+792,10088,6,Flockenmuster,
+793,10088,7,"Motivo Tundra",
+794,10088,8,"Motivo Manto di Neve",
+795,10088,9,"Tundra Pattern","Tundra Vivillon"
+796,10089,1,たいりくのもよう,
+797,10089,3,"대륙의 모양",
+798,10089,5,"Motif Continent","Prismillon Continent"
+799,10089,6,Kontinentalmuster,
+800,10089,7,"Motivo Continental",
+801,10089,8,"Motivo Continentale",
+802,10089,9,"Continental Pattern","Continental Vivillon"
+803,10090,1,ていえんのもよう,
+804,10090,3,"정원의 모양",
+805,10090,5,"Motif Verdure","Prismillon Verdure"
+806,10090,6,Ziergartenmuster,
+807,10090,7,"Motivo Vergel",
+808,10090,8,"Motivo Prato",
+809,10090,9,"Garden Pattern","Garden Vivillon"
+810,10091,1,みやびなもよう,
+811,10091,3,"우아한 모양",
+812,10091,5,"Motif Monarchie","Prismillon Monarchie"
+813,10091,6,Prunkmuster,
+814,10091,7,"Motivo Oriental",
+815,10091,8,"Motivo Eleganza",
+816,10091,9,"Elegant Pattern","Elegant Vivillon"
+817,10092,1,モダンなもよう,
+818,10092,3,"모던한 모양",
+819,10092,5,"Motif Métropole","Prismillon Métropole"
+820,10092,6,Innovationsmuster,
+821,10092,7,"Motivo Moderno",
+822,10092,8,"Motivo Trendy",
+823,10092,9,"Modern Pattern","Modern Vivillon"
+824,10093,1,マリンのもよう,
+825,10093,3,"마린의 모양",
+826,10093,5,"Motif Rivage","Prismillon Rivage"
+827,10093,6,Aquamarinmuster,
+828,10093,7,"Motivo Marino",
+829,10093,8,"Motivo Marino",
+830,10093,9,"Marine Pattern","Marine Vivillon"
+831,10094,1,ぐんとうのもよう,
+832,10094,3,"군도의 모양",
+833,10094,5,"Motif Archipel","Prismillon Archipel"
+834,10094,6,Archipelmuster,
+835,10094,7,"Motivo Isleño",
+836,10094,8,"Motivo Arcipelago",
+837,10094,9,"Archipelago Pattern","Archipelago Vivillon"
+838,10095,1,こうやのもよう,
+839,10095,3,"황야의 모양",
+840,10095,5,"Motif Sécheresse","Prismillon Sécheresse"
+841,10095,6,Dürremuster,
+842,10095,7,"Motivo Estepa",
+843,10095,8,"Motivo Deserto",
+844,10095,9,"High Plains Pattern","High Plains Vivillon"
+845,10096,1,さじんのもよう,
+846,10096,3,"사진의 모양",
+847,10096,5,"Motif Sable","Prismillon Sable"
+848,10096,6,Sandmuster,
+849,10096,7,"Motivo Desierto",
+850,10096,8,"Motivo Sabbia",
+851,10096,9,"Sandstorm Pattern","Sandstorm Vivillon"
+852,10097,1,たいがのもよう,
+853,10097,3,"대하의 모양",
+854,10097,5,"Motif Delta","Prismillon Delta"
+855,10097,6,Flussdeltamuster,
+856,10097,7,"Motivo Oasis",
+857,10097,8,"Motivo Fluviale",
+858,10097,9,"River Pattern","River Vivillon"
+859,10098,1,スコールのもよう,
+860,10098,3,"스콜의 모양",
+861,10098,5,"Motif Cyclone","Prismillon Cyclone"
+862,10098,6,Monsunmuster,
+863,10098,7,"Motivo Monzón",
+864,10098,8,"Motivo Pluviale",
+865,10098,9,"Monsoon Pattern","Monsoon Vivillon"
+866,10099,1,サバンナのもよう,
+867,10099,3,"사바나의 모양",
+868,10099,5,"Motif Mangrove","Prismillon Mangrove"
+869,10099,6,Savannenmuster,
+870,10099,7,"Motivo Pantano",
+871,10099,8,"Motivo Savana",
+872,10099,9,"Savanna Pattern","Savanna Vivillon"
+873,10100,1,たいようのもよう,
+874,10100,3,"태양의 모양",
+875,10100,5,"Motif Zénith","Prismillon Zénith"
+876,10100,6,Sonnenmuster,
+877,10100,7,"Motivo Solar",
+878,10100,8,"Motivo Solare",
+879,10100,9,"Sun Pattern","Sun Vivillon"
+880,10101,1,オーシャンのもよう,
+881,10101,3,"오션의 모양",
+882,10101,5,"Motif Soleil Levant","Prismillon Soleil Levant"
+883,10101,6,Ozeanmuster,
+884,10101,7,"Motivo Océano",
+885,10101,8,"Motivo Oceanico",
+886,10101,9,"Ocean Pattern","Ocean Vivillon"
+887,10102,1,ジャングルのもよう,
+888,10102,3,"정글의 모양",
+889,10102,5,"Motif Jungle","Prismillon Jungle"
+890,10102,6,Dschungelmuster,
+891,10102,7,"Motivo Jungla",
+892,10102,8,"Motivo Giungla",
+893,10102,9,"Jungle Pattern","Jungle Vivillon"
+894,10103,1,きいろのはな,
+895,10103,3,"노란 꽃",
+896,10103,5,"Fleur Jaune","Flabébé Jaune"
+897,10103,6,Gelbblütler,
+898,10103,7,"Flor Amarilla",
+899,10103,8,"Fiore Giallo",
+900,10103,9,"Yellow Flower","Yellow Flabébé"
+901,10104,1,オレンジいろのはな,
+902,10104,3,"오렌지색 꽃",
+903,10104,5,"Fleur Orange","Flabébé Orange"
+904,10104,6,Orangeblütler,
+905,10104,7,"Flor Naranja",
+906,10104,8,"Fiore Arancione",
+907,10104,9,"Orange Flower","Orange Flabébé"
+908,10105,1,あおいはな,
+909,10105,3,"파란 꽃",
+910,10105,5,"Fleur Bleue","Flabébé Bleu"
+911,10105,6,Blaublütler,
+912,10105,7,"Flor Azul",
+913,10105,8,"Fiore Blu",
+914,10105,9,"Blue Flower","Blue Flabébé"
+915,10106,1,しろいはな,
+916,10106,3,"하얀 꽃",
+917,10106,5,"Fleur Blanche","Flabébé Blanc"
+918,10106,6,Weißblütler,
+919,10106,7,"Flor Blanca",
+920,10106,8,"Fiore Bianco",
+921,10106,9,"White Flower","White Flabébé"
+922,10107,1,きいろのはな,
+923,10107,3,"노란 꽃",
+924,10107,5,"Fleur Jaune","Floette Jaune"
+925,10107,6,Gelbblütler,
+926,10107,7,"Flor Amarilla",
+927,10107,8,"Fiore Giallo",
+928,10107,9,"Yellow Flower","Yellow Floette"
+929,10108,1,オレンジいろのはな,
+930,10108,3,"오렌지색 꽃",
+931,10108,5,"Fleur Orange","Floette Orange"
+932,10108,6,Orangeblütler,
+933,10108,7,"Flor Naranja",
+934,10108,8,"Fiore Arancione",
+935,10108,9,"Orange Flower","Orange Floette"
+936,10109,1,あおいはな,
+937,10109,3,"파란 꽃",
+938,10109,5,"Fleur Bleue","Floette Bleu"
+939,10109,6,Blaublütler,
+940,10109,7,"Flor Azul",
+941,10109,8,"Fiore Blu",
+942,10109,9,"Blue Flower","Blue Floette"
+943,10110,1,しろいはな,
+944,10110,3,"하얀 꽃",
+945,10110,5,"Fleur Blanche","Floette Blanc"
+946,10110,6,Weißblütler,
+947,10110,7,"Flor Blanca",
+948,10110,8,"Fiore Bianco",
+949,10110,9,"White Flower","White Floette"
+950,10111,1,きいろのはな,
+951,10111,3,"노란 꽃",
+952,10111,5,"Fleur Jaune","Florges Jaune"
+953,10111,6,Gelbblütler,
+954,10111,7,"Flor Amarilla",
+955,10111,8,"Fiore Giallo",
+956,10111,9,"Yellow Flower","Yellow Florges"
+957,10112,1,オレンジいろのはな,
+958,10112,3,"오렌지색 꽃",
+959,10112,5,"Fleur Orange","Florges Orange"
+960,10112,6,Orangeblütler,
+961,10112,7,"Flor Naranja",
+962,10112,8,"Fiore Arancione",
+963,10112,9,"Orange Flower","Orange Florges"
+964,10113,1,あおいはな,
+965,10113,3,"파란 꽃",
+966,10113,5,"Fleur Bleue","Florges Bleu"
+967,10113,6,Blaublütler,
+968,10113,7,"Flor Azul",
+969,10113,8,"Fiore Blu",
+970,10113,9,"Blue Flower","Blue Florges"
+971,10114,1,しろいはな,
+972,10114,3,"하얀 꽃",
+973,10114,5,"Fleur Blanche","Florges Blanc"
+974,10114,6,Weißblütler,
+975,10114,7,"Flor Blanca",
+976,10114,8,"Fiore Bianco",
+977,10114,9,"White Flower","White Florges"
+978,10115,1,ハートカット,
+979,10115,3,하트컷,
+980,10115,5,"Coupe Cœur","Couafarel Cœur"
+981,10115,6,Herzchenschnitt,
+982,10115,7,"Corte Corazón",
+983,10115,8,"Taglio Cuore",
+984,10115,9,"Heart Trim","Heart Furfrou"
+985,10116,1,スターカット,
+986,10116,3,스타컷,
+987,10116,5,"Coupe Étoile","Couafarel Étoile"
+988,10116,6,Sternchenschnitt,
+989,10116,7,"Corte Estrella",
+990,10116,8,"Taglio Stella",
+991,10116,9,"Star Trim","Star Furfrou"
+992,10117,1,ダイヤカット,
+993,10117,3,다이아컷,
+994,10117,5,"Coupe Diamant","Couafarel Diamant"
+995,10117,6,Diamantenschnitt,
+996,10117,7,"Corte Rombo",
+997,10117,8,"Taglio Diamante",
+998,10117,9,"Diamond Trim","Diamond Furfrou"
+999,10118,1,レディカット,
+1000,10118,3,레이디컷,
+1001,10118,5,"Coupe Demoiselle","Couafarel Demoiselle"
+1002,10118,6,Fräuleinschnitt,
+1003,10118,7,"Corte Señorita",
+1004,10118,8,"Taglio Signorina",
+1005,10118,9,"Debutante Trim","Debutante Furfrou"
+1006,10119,1,マダムカット,
+1007,10119,3,마담컷,
+1008,10119,5,"Coupe Madame","Couafarel Madame"
+1009,10119,6,Damenschnitt,
+1010,10119,7,"Corte Dama",
+1011,10119,8,"Taglio Gentildonna",
+1012,10119,9,"Matron Trim","Matron Furfrou"
+1013,10120,1,ジェントルカット,
+1014,10120,3,젠틀컷,
+1015,10120,5,"Coupe Monsieur","Couafarel Monsieur"
+1016,10120,6,Kavaliersschnitt,
+1017,10120,7,"Corte Caballero",
+1018,10120,8,"Taglio Gentiluomo",
+1019,10120,9,"Dandy Trim","Dandy Furfrou"
+1020,10121,1,クイーンカット,
+1021,10121,3,퀸컷,
+1022,10121,5,"Coupe Reine","Couafarel Reine"
+1023,10121,6,Königinnenschnitt,
+1024,10121,7,"Corte Aristocrático",
+1025,10121,8,"Taglio Regina",
+1026,10121,9,"La Reine Trim","La Reine Furfrou"
+1027,10122,1,カブキカット,
+1028,10122,3,가부키컷,
+1029,10122,5,"Coupe Kabuki","Couafarel Kabuki"
+1030,10122,6,Kabuki-Schnitt,
+1031,10122,7,"Corte Kabuki",
+1032,10122,8,"Taglio Kabuki",
+1033,10122,9,"Kabuki Trim","Kabuki Furfrou"
+1034,10123,1,キングダムカット,
+1035,10123,3,킹덤컷,
+1036,10123,5,"Coupe Pharaon","Couafarel Pharaon"
+1037,10123,6,Herrscherschnitt,
+1038,10123,7,"Corte Faraónico",
+1039,10123,8,"Taglio Faraone",
+1040,10123,9,"Pharaoh Trim","Pharaoh Furfrou"
+1041,10124,1,メスのすがた,
+1042,10124,3,"암컷의 모습",
+1043,10124,5,Femelle,"Mistigrix Femelle"
+1044,10124,6,Weiblich,
+1045,10124,7,Hembra,
+1046,10124,8,Femmina,
+1047,10124,9,Female,"Female Meowstic"
+1048,10125,1,ブレードフォルム,
+1049,10125,3,블레이드폼,
+1050,10125,5,"Forme Assaut","Exagide Assaut"
+1051,10125,6,Klingenform,
+1052,10125,7,"Forma Filo",
+1053,10125,8,"Forma Spada",
+1054,10125,9,"Blade Forme","Blade Aegislash"
+1055,10126,1,ちいさいサイズ,
+1056,10126,3,"작은 사이즈",
+1057,10126,5,"Taille Mini","Pitrouille Mini"
+1058,10126,6,"Größe S",
+1059,10126,7,"Tamaño Pequeño",
+1060,10126,8,Mini,
+1061,10126,9,"Small Size","Small Pumpkaboo"
+1062,10127,1,おおきいサイズ,
+1063,10127,3,"큰 사이즈",
+1064,10127,5,"Taille Maxi","Pitrouille Maxi"
+1065,10127,6,"Größe L",
+1066,10127,7,"Tamaño Grande",
+1067,10127,8,Grande,
+1068,10127,9,"Large Size","Large Pumpkaboo"
+1069,10128,1,とくだいサイズ,
+1070,10128,3,"특대 사이즈",
+1071,10128,5,"Taille Ultra","Pitrouille Ultra"
+1072,10128,6,"Größe XL",
+1073,10128,7,"Tamaño Extragrande",
+1074,10128,8,Maxi,
+1075,10128,9,"Super Size","Super Pumpkaboo"
+1076,10129,1,ちいさいサイズ,
+1077,10129,3,"작은 사이즈",
+1078,10129,5,"Taille Mini","Banshitrouye Mini"
+1079,10129,6,"Größe S",
+1080,10129,7,"Tamaño Pequeño",
+1081,10129,8,Mini,
+1082,10129,9,"Small Size","Small Gourgeist"
+1083,10130,1,おおきいサイズ,
+1084,10130,3,"큰 사이즈",
+1085,10130,5,"Taille Maxi","Banshitrouye Maxi"
+1086,10130,6,"Größe L",
+1087,10130,7,"Tamaño Grande",
+1088,10130,8,Grande,
+1089,10130,9,"Large Size","Large Gourgeist"
+1090,10131,1,とくだいサイズ,
+1091,10131,3,"특대 사이즈",
+1092,10131,5,"Taille Ultra","Banshitrouye Ultra"
+1093,10131,6,"Größe XL",
+1094,10131,7,"Tamaño Extragrande",
+1095,10131,8,Maxi,
+1096,10131,9,"Super Size","Super Gourgeist"
+1097,10132,1,リラックスモード,
+1098,10132,3,릴랙스모드,
+1099,10132,5,"Mode Paisible","Xerneas Paisible"
+1100,10132,6,Ruhe-Modus,
+1101,10132,7,"Modo Relajado",
+1102,10132,8,"Modo Relax",
+1103,10132,9,"Neutral Mode","Neutral Xerneas"
+1104,10133,1,メガフシギバナ,
+1105,10133,3,메가이상해꽃,
+1106,10133,5,Méga-Florizarre,Méga-Florizarre
+1107,10133,6,Mega-Bisaflor,
+1108,10133,7,Mega-Venusaur,
+1109,10133,8,MegaVenusaur,
+1110,10133,9,"Mega Venusaur","Mega Venusaur"
+1111,10134,1,メガリザードンＸ,
+1112,10134,3,메가리자몽X,
+1113,10134,5,"Méga-Dracaufeu X","Méga-Dracaufeu X"
+1114,10134,6,"Mega-Glurak X",
+1115,10134,7,"Mega-Charizard X",
+1116,10134,8,"MegaCharizard X",
+1117,10134,9,"Mega Charizard X","Mega Charizard X"
+1118,10135,1,メガリザードンＹ,
+1119,10135,3,메가리자몽Y,
+1120,10135,5,"Méga-Dracaufeu Y","Méga-Dracaufeu Y"
+1121,10135,6,"Mega-Glurak Y",
+1122,10135,7,"Mega-Charizard Y",
+1123,10135,8,"MegaCharizard Y",
+1124,10135,9,"Mega Charizard Y","Mega Charizard Y"
+1125,10136,1,メガカメックス,
+1126,10136,3,메가거북왕,
+1127,10136,5,Méga-Tortank,Méga-Tortank
+1128,10136,6,Mega-Turtok,
+1129,10136,7,Mega-Blastoise,
+1130,10136,8,MegaBlastoise,
+1131,10136,9,"Mega Blastoise","Mega Blastoise"
+1132,10137,1,メガフーディン,
+1133,10137,3,메가후딘,
+1134,10137,5,Méga-Alakazam,Méga-Alakazam
+1135,10137,6,Mega-Simsala,
+1136,10137,7,Mega-Alakazam,
+1137,10137,8,MegaAlakazam,
+1138,10137,9,"Mega Alakazam","Mega Alakazam"
+1139,10138,1,メガゲンガー,
+1140,10138,3,메가팬텀,
+1141,10138,5,Méga-Ectoplasma,Méga-Ectoplasma
+1142,10138,6,Mega-Gengar,
+1143,10138,7,Mega-Gengar,
+1144,10138,8,MegaGengar,
+1145,10138,9,"Mega Gengar","Mega Gengar"
+1146,10139,1,メガガルーラ,
+1147,10139,3,메가캥카,
+1148,10139,5,Méga-Kangourex,Méga-Kangourex
+1149,10139,6,Mega-Kangama,
+1150,10139,7,Mega-Kangaskhan,
+1151,10139,8,MegaKangaskhan,
+1152,10139,9,"Mega Kangaskhan","Mega Kangaskhan"
+1153,10140,1,メガカイロス,
+1154,10140,3,메가쁘사이저,
+1155,10140,5,Méga-Scarabrute,Méga-Scarabrute
+1156,10140,6,Mega-Pinsir,
+1157,10140,7,Mega-Pinsir,
+1158,10140,8,MegaPinsir,
+1159,10140,9,"Mega Pinsir","Mega Pinsir"
+1160,10141,1,メガギャラドス,
+1161,10141,3,메가갸라도스,
+1162,10141,5,Méga-Léviator,Méga-Léviator
+1163,10141,6,Mega-Garados,
+1164,10141,7,Mega-Gyarados,
+1165,10141,8,MegaGyarados,
+1166,10141,9,"Mega Gyarados","Mega Gyarados"
+1167,10142,1,メガプテラ,
+1168,10142,3,메가프테라,
+1169,10142,5,Méga-Ptéra,Méga-Ptéra
+1170,10142,6,Mega-Aerodactyl,
+1171,10142,7,Mega-Aerodactyl,
+1172,10142,8,MegaAerodactyl,
+1173,10142,9,"Mega Aerodactyl","Mega Aerodactyl"
+1174,10143,1,メガミュウツーＸ,
+1175,10143,3,메가뮤츠X,
+1176,10143,5,"Méga-Mewtwo X","Méga-Mewtwo X"
+1177,10143,6,"Mega-Mewtu X",
+1178,10143,7,"Mega-Mewtwo X",
+1179,10143,8,"MegaMewtwo X",
+1180,10143,9,"Mega Mewtwo X","Mega Mewtwo X"
+1181,10144,1,メガミュウツーＹ,
+1182,10144,3,메가뮤츠Y,
+1183,10144,5,"Méga-Mewtwo Y","Méga-Mewtwo Y"
+1184,10144,6,"Mega-Mewtu Y",
+1185,10144,7,"Mega-Mewtwo Y",
+1186,10144,8,"MegaMewtwo Y",
+1187,10144,9,"Mega Mewtwo Y","Mega Mewtwo Y"
+1188,10145,1,メガデンリュウ,
+1189,10145,3,메가전룡,
+1190,10145,5,Méga-Pharamp,Méga-Pharamp
+1191,10145,6,Mega-Ampharos,
+1192,10145,7,Mega-Ampharos,
+1193,10145,8,MegaAmpharos,
+1194,10145,9,"Mega Ampharos","Mega Ampharos"
+1195,10146,1,メガハッサム,
+1196,10146,3,메가핫삼,
+1197,10146,5,Méga-Cizayox,Méga-Cizayox
+1198,10146,6,Mega-Scherox,
+1199,10146,7,Mega-Scizor,
+1200,10146,8,MegaScizor,
+1201,10146,9,"Mega Scizor","Mega Scizor"
+1202,10147,1,メガヘラクロス,
+1203,10147,3,메가헤라크로스,
+1204,10147,5,Méga-Scarhino,Méga-Scarhino
+1205,10147,6,Mega-Skaraborn,
+1206,10147,7,Mega-Heracross,
+1207,10147,8,MegaHeracross,
+1208,10147,9,"Mega Heracross","Mega Heracross"
+1209,10148,1,メガヘルガー,
+1210,10148,3,메가헬가,
+1211,10148,5,Méga-Démolosse,Méga-Démolosse
+1212,10148,6,Mega-Hundemon,
+1213,10148,7,Mega-Houndoom,
+1214,10148,8,MegaHoundoom,
+1215,10148,9,"Mega Houndoom","Mega Houndoom"
+1216,10149,1,メガバンギラス,
+1217,10149,3,메가마기라스,
+1218,10149,5,Méga-Tyranocif,Méga-Tyranocif
+1219,10149,6,Mega-Despotar,
+1220,10149,7,Mega-Tyranitar,
+1221,10149,8,MegaTyranitar,
+1222,10149,9,"Mega Tyranitar","Mega Tyranitar"
+1223,10150,1,メガバシャーモ,
+1224,10150,3,메가번치코,
+1225,10150,5,Méga-Braségali,Méga-Braségali
+1226,10150,6,Mega-Lohgock,
+1227,10150,7,Mega-Blaziken,
+1228,10150,8,MegaBlaziken,
+1229,10150,9,"Mega Blaziken","Mega Blaziken"
+1230,10151,1,メガサーナイト,
+1231,10151,3,메가가디안,
+1232,10151,5,Méga-Gardevoir,Méga-Gardevoir
+1233,10151,6,Mega-Guardevoir,
+1234,10151,7,Mega-Gardevoir,
+1235,10151,8,MegaGardevoir,
+1236,10151,9,"Mega Gardevoir","Mega Gardevoir"
+1237,10152,1,メガクチート,
+1238,10152,3,메가입치트,
+1239,10152,5,Méga-Mysdibule,Méga-Mysdibule
+1240,10152,6,Mega-Flunkifer,
+1241,10152,7,Mega-Mawile,
+1242,10152,8,MegaMawile,
+1243,10152,9,"Mega Mawile","Mega Mawile"
+1244,10153,1,メガボスゴドラ,
+1245,10153,3,메가보스로라,
+1246,10153,5,Méga-Galeking,Méga-Galeking
+1247,10153,6,Mega-Stolloss,
+1248,10153,7,Mega-Aggron,
+1249,10153,8,MegaAggron,
+1250,10153,9,"Mega Aggron","Mega Aggron"
+1251,10154,1,メガチャーレム,
+1252,10154,3,메가요가램,
+1253,10154,5,Méga-Charmina,Méga-Charmina
+1254,10154,6,Mega-Meditalis,
+1255,10154,7,Mega-Medicham,
+1256,10154,8,MegaMedicham,
+1257,10154,9,"Mega Medicham","Mega Medicham"
+1258,10155,1,メガライボルト,
+1259,10155,3,메가썬더볼트,
+1260,10155,5,Méga-Élecsprint,Méga-Élecsprint
+1261,10155,6,Mega-Voltenso,
+1262,10155,7,Mega-Manectric,
+1263,10155,8,MegaManectric,
+1264,10155,9,"Mega Manectric","Mega Manectric"
+1265,10156,1,メガジュペッタ,
+1266,10156,3,메가다크펫,
+1267,10156,5,Méga-Branette,Méga-Branette
+1268,10156,6,Mega-Banette,
+1269,10156,7,Mega-Banette,
+1270,10156,8,MegaBanette,
+1271,10156,9,"Mega Banette","Mega Banette"
+1272,10157,1,メガアブソル,
+1273,10157,3,메가앱솔,
+1274,10157,5,Méga-Absol,Méga-Absol
+1275,10157,6,Mega-Absol,
+1276,10157,7,Mega-Absol,
+1277,10157,8,MegaAbsol,
+1278,10157,9,"Mega Absol","Mega Absol"
+1279,10158,1,メガガブリアス,
+1280,10158,3,메가한카리아스,
+1281,10158,5,Méga-Carchacrok,Méga-Carchacrok
+1282,10158,6,Mega-Knakrack,
+1283,10158,7,Mega-Garchomp,
+1284,10158,8,MegaGarchomp,
+1285,10158,9,"Mega Garchomp","Mega Garchomp"
+1286,10159,1,メガルカリオ,
+1287,10159,3,메가루카리오,
+1288,10159,5,Méga-Lucario,Méga-Lucario
+1289,10159,6,Mega-Lucario,
+1290,10159,7,Mega-Lucario,
+1291,10159,8,MegaLucario,
+1292,10159,9,"Mega Lucario","Mega Lucario"
+1293,10160,1,メガユキノオー,
+1294,10160,3,메가눈설왕,
+1295,10160,5,Méga-Blizzaroi,Méga-Blizzaroi
+1296,10160,6,Mega-Rexblisar,
+1297,10160,7,Mega-Abomasnow,
+1298,10160,8,MegaAbomasnow,
+1299,10160,9,"Mega Abomasnow","Mega Abomasnow"
+1300,10161,1,ファンシーなもよう,
+1301,10161,3,"팬시한 모양",
+1302,10161,5,"Motif Fantaisie","Prismillion Fantaisie"
+1303,10161,6,Fantasiemuster,
+1304,10161,7,"Motivo Fantasía",
+1305,10161,8,"Motivo Sbarazzino",
+1306,10161,9,"Fancy Pattern","Fancy Vivillon"
+1307,10162,1,ボールのもよう,
+1308,10162,3,"볼의 모양",
+1309,10162,5,"Motif Poké Ball","Prismillon Poké Ball"
+1310,10162,6,Pokéball-Muster,
+1311,10162,7,"Motivo Poké Ball",
+1312,10162,8,"Motivo Poké Ball",
+1313,10162,9,"Poké Ball Pattern","Poké Ball Vivillon"
+1314,10163,1,えいえんのはな,
+1315,10163,3,"영원의 꽃",
+1316,10163,5,"Fleur Éternelle","Floette Éternel"
+1317,10163,6,Ewigblütler,
+1318,10163,7,"Flor Eterna",
+1319,10163,8,"Fiore Eterno",
+1320,10163,9,"Eternal Flower","Eternal Floette"
+1321,10164,1,メガラティアス,
+1322,10164,3,메가라티아스,
+1323,10164,5,Méga-Latias,Méga-Latias
+1324,10164,6,Mega-Latias,
+1325,10164,7,Mega-Latias,
+1326,10164,8,MegaLatias,
+1327,10164,9,"Mega Latias","Mega Latias"
+1328,10165,1,メガラティオス,
+1329,10165,3,메가라티오스,
+1330,10165,5,Méga-Latios,Méga-Latios
+1331,10165,6,Mega-Latios,
+1332,10165,7,Mega-Latios,
+1333,10165,8,MegaLatios,
+1334,10165,9,"Mega Latios","Mega Latios"
+1335,10166,5,Méga-Laggron,Méga-Laggron
+1336,10166,9,"Mega Swampert","Mega Swampert"
+1337,10167,5,Méga-Jungko,Méga-Jungko
+1338,10167,9,"Mega Sceptile","Mega Sceptile"
+1339,10168,5,Méga-Ténéfix,Méga-Ténéfix
+1340,10168,9,"Mega Sableye","Mega Sableye"
+1341,10169,5,Méga-Altaria,Méga-Altaria
+1342,10169,9,"Mega Altaria","Mega Altaria"
+1343,10170,5,Méga-Gallame,Méga-Gallame
+1344,10170,9,"Mega Gallade","Mega Gallade"
+1345,10171,5,Méga-Nanméouïe,Méga-Nanméouïe
+1346,10171,9,"Mega Audino","Mega Audino"
+1347,10172,5,Méga-Sharpedo,Méga-Sharpedo
+1348,10172,9,"Mega Sharpedo","Mega Sharpedo"
+1349,10173,5,Méga-Flagadoss,Méga-Flagadoss
+1350,10173,9,"Mega Slowbro","Mega Slowbro"
+1351,10174,5,Méga-Steelix,Méga-Steelix
+1352,10174,9,"Mega Steelix","Mega Steelix"
+1353,10175,5,Méga-Roucarnage,Méga-Roucarnage
+1354,10175,9,"Mega Pidgeot","Mega Pidgeot"
+1355,10176,5,Méga-Oniglali,Méga-Oniglali
+1356,10176,9,"Mega Glalie","Mega Glalie"
+1357,10177,5,Méga-Diancie,Méga-Diancie
+1358,10177,9,"Mega Diancie","Mega Diancie"
+1359,10178,5,Méga-Métalosse,Méga-Métalosse
+1360,10178,9,"Mega Metagross","Mega Metagross"
+1361,10179,5,Primo-résurgence,Primo-Kyogre
+1362,10179,9,"Primal Reversion","Primal Kyogre"
+1363,10180,5,Primo-résurgence,Primo-Groudon
+1364,10180,9,"Primal Reversion","Primal Groudon"
+1365,10181,5,Méga-Rayquaza,Méga-Rayquaza
+1366,10181,9,"Mega Rayquaza","Mega Rayquaza"
+1367,10182,5,"Pikachu Rockeur","Pikachu Rockeur"
+1368,10182,9,"Pikachu Rock Star","Pikachu Rock Star"
+1369,10183,5,"Pikachu Lady","Pikachu Lady"
+1370,10183,9,"Pikachu Belle","Pikachu Belle"
+1371,10184,5,"Pikachu Star","Pikachu Star"
+1372,10184,9,"Pikachu Pop Star","Pikachu Pop Star"
+1373,10185,5,"Pikachu Docteur","Pikachu Docteur"
+1374,10185,9,"Pikachu Ph.D.","Pikachu Ph.D."
+1375,10186,5,"Pikachu Catcheur","Pikachu Catcheur"
+1376,10186,9,"Pikachu Libre","Pikachu Libre"
+1377,10187,5,"Pikachu Cosplayeur","Pikachu Cosplayeur"
+1378,10187,9,"Cosplay Pikachu","Cosplay Pikachu"
+1379,10188,5,"Hoopa Déchaîné","Hoopa Déchaîné"
+1380,10188,9,"Hoopa Unbound","Hoopa Unbound"
+1381,10189,5,Méga-Camérupt,Méga-Camérupt
+1382,10189,9,"Mega Camerupt","Mega Camerupt"
+1383,10190,5,Méga-Lockpin,Méga-Lockpin
+1384,10190,9,"Mega Lopunny","Mega Lopunny"
+1385,10191,5,Méga-Drattak,Méga-Drattak
+1386,10191,9,"Mega Salamence","Mega Salamence"
+1387,10192,5,Méga-Dardargnan,Méga-Dardargnan
+1388,10192,9,"Mega Beedrill","Mega Beedrill"

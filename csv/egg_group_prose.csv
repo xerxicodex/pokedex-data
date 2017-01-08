@@ -1,0 +1,91 @@
+id,egg_group_id,local_language_id,name
+1,1,1,かいじゅう
+2,1,5,Monstrueux
+3,1,6,Monster
+4,1,7,Monstruo
+5,1,8,Mostro
+6,1,9,Monster
+7,2,1,すいちゅう１
+8,2,5,"Aquatique 1"
+9,2,6,"Wasser 1"
+10,2,7,"Agua 1"
+11,2,8,"Acqua 1"
+12,2,9,"Water 1"
+13,3,1,むし
+14,3,5,Insectoïde
+15,3,6,Käfer
+16,3,7,Bicho
+17,3,8,Coleottero
+18,3,9,Bug
+19,4,1,ひこう
+20,4,5,Aérien
+21,4,6,Flug
+22,4,7,Volador
+23,4,8,Volante
+24,4,9,Flying
+25,5,1,りくじょう
+26,5,5,Terrestre
+27,5,6,Feld
+28,5,7,Campo
+29,5,8,Campo
+30,5,9,Field
+31,6,1,ようせい
+32,6,5,Féerique
+33,6,6,Fee
+34,6,7,Hada
+35,6,8,Magico
+36,6,9,Fairy
+37,7,1,しょくぶつ
+38,7,5,Végétal
+39,7,6,Pflanze
+40,7,7,Planta
+41,7,8,Erba
+42,7,9,Grass
+43,8,1,ひとがた
+44,8,5,Humanoïde
+45,8,6,Humanotyp
+46,8,7,Humanoide
+47,8,8,Umanoide
+48,8,9,Human-Like
+49,9,1,すいちゅう３
+50,9,5,"Aquatique 3"
+51,9,6,"Wasser 3"
+52,9,7,"Agua 3"
+53,9,8,"Acqua 3"
+54,9,9,"Water 3"
+55,10,1,こうぶつ
+56,10,5,Minéral
+57,10,6,Mineral
+58,10,7,Mineral
+59,10,8,Minerale
+60,10,9,Mineral
+61,11,1,ふていけい
+62,11,5,Amorphe
+63,11,6,Amorph
+64,11,7,Amorfo
+65,11,8,Amorfo
+66,11,9,Amorphous
+67,12,1,すいちゅう２
+68,12,5,"Aquatique 2"
+69,12,6,"Wasser 2"
+70,12,7,"Agua 2"
+71,12,8,"Acqua 2"
+72,12,9,"Water 2"
+73,13,1,メタモン
+74,13,5,Métamorph
+75,13,6,Ditto
+76,13,7,Ditto
+77,13,8,Ditto
+78,13,9,Ditto
+79,14,1,ドラゴン
+80,14,5,Draconique
+81,14,6,Drache
+82,14,7,Dragón
+83,14,8,Drago
+84,14,9,Dragon
+85,15,1,タマゴみはっけん
+86,15,5,Inconnu
+87,15,6,Unbekannt
+88,15,7,Desconocido
+89,15,8,"Non ancora scoperto"
+90,15,9,Undiscovered

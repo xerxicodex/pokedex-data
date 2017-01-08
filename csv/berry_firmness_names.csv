@@ -1,0 +1,11 @@
+id,berry_firmness_id,local_language_id,name
+1,1,5,"Très tendre"
+2,1,9,"Very Soft"
+3,2,5,Tendre
+4,2,9,Soft
+5,3,5,Ferme
+6,3,9,Hard
+7,4,5,"Très ferme"
+8,4,9,"Very Hard"
+9,5,5,"Super ferme"
+10,5,9,"Super Hard"

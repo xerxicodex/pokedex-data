@@ -1,0 +1,1398 @@
+id,ability_id,local_language_id,name
+1,1,1,あくしゅう
+2,1,3,악취
+3,1,5,Puanteur
+4,1,6,Duftnote
+5,1,7,Hedor
+6,1,8,Tanfo
+7,1,9,Stench
+8,2,1,あめふらし
+9,2,3,잔비
+10,2,5,Crachin
+11,2,6,Niesel
+12,2,7,Llovizna
+13,2,8,Piovischio
+14,2,9,Drizzle
+15,3,1,かそく
+16,3,3,가속
+17,3,5,Turbo
+18,3,6,Temposchub
+19,3,7,Impulso
+20,3,8,Acceleratore
+21,3,9,"Speed Boost"
+22,4,1,カブトアーマー
+23,4,3,전투무장
+24,4,5,Armurbaston
+25,4,6,Kampfpanzer
+26,4,7,"Armadura Batalla"
+27,4,8,Lottascudo
+28,4,9,"Battle Armor"
+29,5,1,がんじょう
+30,5,3,옹골참
+31,5,5,Fermeté
+32,5,6,Robustheit
+33,5,7,Robustez
+34,5,8,Vigore
+35,5,9,Sturdy
+36,6,1,しめりけ
+37,6,3,습기
+38,6,5,Moiteur
+39,6,6,Feuchtigkeit
+40,6,7,Humedad
+41,6,8,Umidità
+42,6,9,Damp
+43,7,1,じゅうなん
+44,7,3,유연
+45,7,5,Échauffement
+46,7,6,Flexibilität
+47,7,7,Flexibilidad
+48,7,8,Scioltezza
+49,7,9,Limber
+50,8,1,すながくれ
+51,8,3,모래숨기
+52,8,5,"Voile Sable"
+53,8,6,Sandschleier
+54,8,7,"Velo Arena"
+55,8,8,Sabbiavelo
+56,8,9,"Sand Veil"
+57,9,1,せいでんき
+58,9,3,정전기
+59,9,5,Statik
+60,9,6,Statik
+61,9,7,"Elec. Estática"
+62,9,8,Statico
+63,9,9,Static
+64,10,1,ちくでん
+65,10,3,축전
+66,10,5,"Absorb Volt"
+67,10,6,Voltabsorber
+68,10,7,"Absorbe Elec"
+69,10,8,Assorbivolt
+70,10,9,"Volt Absorb"
+71,11,1,ちょすい
+72,11,3,저수
+73,11,5,"Absorb Eau"
+74,11,6,H2O-Absorber
+75,11,7,"Absorbe Agua"
+76,11,8,Assorbacqua
+77,11,9,"Water Absorb"
+78,12,1,どんかん
+79,12,3,둔감
+80,12,5,Benêt
+81,12,6,Dösigkeit
+82,12,7,Despiste
+83,12,8,Indifferenza
+84,12,9,Oblivious
+85,13,1,ノーてんき
+86,13,3,날씨부정
+87,13,5,"Ciel Gris"
+88,13,6,"Wolke Sieben"
+89,13,7,Aclimatación
+90,13,8,Antimeteo
+91,13,9,"Cloud Nine"
+92,14,1,ふくがん
+93,14,3,복안
+94,14,5,"Œil Composé"
+95,14,6,Facettenauge
+96,14,7,"Ojo Compuesto"
+97,14,8,Insettocchi
+98,14,9,"Compound Eyes"
+99,15,1,ふみん
+100,15,3,불면
+101,15,5,Insomnia
+102,15,6,Insomnia
+103,15,7,Insomnio
+104,15,8,Insonnia
+105,15,9,Insomnia
+106,16,1,へんしょく
+107,16,3,변색
+108,16,5,Déguisement
+109,16,6,Farbwechsel
+110,16,7,"Cambio Color"
+111,16,8,Cambiacolore
+112,16,9,"Color Change"
+113,17,1,めんえき
+114,17,3,면역
+115,17,5,Vaccin
+116,17,6,Immunität
+117,17,7,Inmunidad
+118,17,8,Immunità
+119,17,9,Immunity
+120,18,1,もらいび
+121,18,3,타오르는불꽃
+122,18,5,Torche
+123,18,6,Feuerfänger
+124,18,7,"Absorbe Fuego"
+125,18,8,Fuocardore
+126,18,9,"Flash Fire"
+127,19,1,りんぷん
+128,19,3,인분
+129,19,5,"Écran Poudre"
+130,19,6,Puderabwehr
+131,19,7,"Polvo Escudo"
+132,19,8,Polvoscudo
+133,19,9,"Shield Dust"
+134,20,1,マイペース
+135,20,3,마이페이스
+136,20,5,"Tempo Perso"
+137,20,6,Tempomacher
+138,20,7,"Ritmo Propio"
+139,20,8,"Mente Locale"
+140,20,9,"Own Tempo"
+141,21,1,きゅうばん
+142,21,3,흡반
+143,21,5,Ventouse
+144,21,6,Saugnapf
+145,21,7,Ventosas
+146,21,8,Ventose
+147,21,9,"Suction Cups"
+148,22,1,いかく
+149,22,3,위협
+150,22,5,Intimidation
+151,22,6,Bedroher
+152,22,7,Intimidación
+153,22,8,Prepotenza
+154,22,9,Intimidate
+155,23,1,かげふみ
+156,23,3,그림자밟기
+157,23,5,"Marque Ombre"
+158,23,6,Wegsperre
+159,23,7,"Sombra Trampa"
+160,23,8,Pedinombra
+161,23,9,"Shadow Tag"
+162,24,1,さめはだ
+163,24,3,까칠한피부
+164,24,5,"Peau Dure"
+165,24,6,Rauhaut
+166,24,7,"Piel Tosca"
+167,24,8,Cartavetro
+168,24,9,"Rough Skin"
+169,25,1,ふしぎなまもり
+170,25,3,불가사의부적
+171,25,5,"Garde Mystik"
+172,25,6,Wunderwache
+173,25,7,Superguarda
+174,25,8,Magidifesa
+175,25,9,"Wonder Guard"
+176,26,1,ふゆう
+177,26,3,부유
+178,26,5,Lévitation
+179,26,6,Schwebe
+180,26,7,Levitación
+181,26,8,Levitazione
+182,26,9,Levitate
+183,27,1,ほうし
+184,27,3,포자
+185,27,5,"Pose Spore"
+186,27,6,Sporenwirt
+187,27,7,"Efecto Espora"
+188,27,8,Spargispora
+189,27,9,"Effect Spore"
+190,28,1,シンクロ
+191,28,3,싱크로
+192,28,5,Synchro
+193,28,6,Synchro
+194,28,7,Sincronía
+195,28,8,Sincronismo
+196,28,9,Synchronize
+197,29,1,クリアボディ
+198,29,3,클리어바디
+199,29,5,"Corps Sain"
+200,29,6,Neutraltorso
+201,29,7,"Cuerpo Puro"
+202,29,8,Corpochiaro
+203,29,9,"Clear Body"
+204,30,1,しぜんかいふく
+205,30,3,자연회복
+206,30,5,"Médic Nature"
+207,30,6,"Innere Kraft"
+208,30,7,"Cura Natural"
+209,30,8,Alternacura
+210,30,9,"Natural Cure"
+211,31,1,ひらいしん
+212,31,3,피뢰침
+213,31,5,Paratonnerre
+214,31,6,Blitzfänger
+215,31,7,Pararrayos
+216,31,8,Parafulmine
+217,31,9,"Lightning Rod"
+218,32,1,てんのめぐみ
+219,32,3,하늘의은총
+220,32,5,Sérénité
+221,32,6,Edelmut
+222,32,7,Dicha
+223,32,8,Leggiadro
+224,32,9,"Serene Grace"
+225,33,1,すいすい
+226,33,3,쓱쓱
+227,33,5,Glissade
+228,33,6,Wassertempo
+229,33,7,"Nado Rápido"
+230,33,8,Nuotovelox
+231,33,9,"Swift Swim"
+232,34,1,ようりょくそ
+233,34,3,엽록소
+234,34,5,Chlorophylle
+235,34,6,Chlorophyll
+236,34,7,Clorofila
+237,34,8,Clorofilla
+238,34,9,Chlorophyll
+239,35,1,はっこう
+240,35,3,발광
+241,35,5,Lumiattirance
+242,35,6,Erleuchtung
+243,35,7,Iluminación
+244,35,8,Risplendi
+245,35,9,Illuminate
+246,36,1,トレース
+247,36,3,트레이스
+248,36,5,Calque
+249,36,6,Fährte
+250,36,7,Rastro
+251,36,8,Traccia
+252,36,9,Trace
+253,37,1,ちからもち
+254,37,3,천하장사
+255,37,5,Coloforce
+256,37,6,Kraftkoloss
+257,37,7,Potencia
+258,37,8,Macroforza
+259,37,9,"Huge Power"
+260,38,1,どくのトゲ
+261,38,3,독가시
+262,38,5,"Point Poison"
+263,38,6,Giftdorn
+264,38,7,"Punto Tóxico"
+265,38,8,Velenopunto
+266,38,9,"Poison Point"
+267,39,1,せいしんりょく
+268,39,3,정신력
+269,39,5,Attention
+270,39,6,Konzentrator
+271,39,7,"Foco Interno"
+272,39,8,Fuocodentro
+273,39,9,"Inner Focus"
+274,40,1,マグマのよろい
+275,40,3,마그마의무장
+276,40,5,Armumagma
+277,40,6,Magmapanzer
+278,40,7,"Escudo Magma"
+279,40,8,Magmascudo
+280,40,9,"Magma Armor"
+281,41,1,みずのベール
+282,41,3,수의베일
+283,41,5,Ignifu-Voile
+284,41,6,Aquahülle
+285,41,7,"Velo Agua"
+286,41,8,Idrovelo
+287,41,9,"Water Veil"
+288,42,1,じりょく
+289,42,3,자력
+290,42,5,Magnépiège
+291,42,6,Magnetfalle
+292,42,7,Imán
+293,42,8,Magnetismo
+294,42,9,"Magnet Pull"
+295,43,1,ぼうおん
+296,43,3,방음
+297,43,5,Anti-Bruit
+298,43,6,Lärmschutz
+299,43,7,Insonorizar
+300,43,8,Antisuono
+301,43,9,Soundproof
+302,44,1,あめうけざら
+303,44,3,젖은접시
+304,44,5,Cuvette
+305,44,6,Regengenuss
+306,44,7,"Cura Lluvia"
+307,44,8,Copripioggia
+308,44,9,"Rain Dish"
+309,45,1,すなおこし
+310,45,3,모래날림
+311,45,5,"Sable Volant"
+312,45,6,Sandsturm
+313,45,7,"Chorro Arena"
+314,45,8,Sabbiafiume
+315,45,9,"Sand Stream"
+316,46,1,プレッシャー
+317,46,3,프레셔
+318,46,5,Pression
+319,46,6,Erzwinger
+320,46,7,Presión
+321,46,8,Pressione
+322,46,9,Pressure
+323,47,1,あついしぼう
+324,47,3,두꺼운지방
+325,47,5,Isograisse
+326,47,6,Speckschicht
+327,47,7,Sebo
+328,47,8,Grassospesso
+329,47,9,"Thick Fat"
+330,48,1,はやおき
+331,48,3,일찍기상
+332,48,5,Matinal
+333,48,6,Frühwecker
+334,48,7,Madrugar
+335,48,8,Sveglialampo
+336,48,9,"Early Bird"
+337,49,1,ほのおのからだ
+338,49,3,불꽃몸
+339,49,5,"Corps Ardent"
+340,49,6,Flammkörper
+341,49,7,"Cuerpo Llama"
+342,49,8,Corpodifuoco
+343,49,9,"Flame Body"
+344,50,1,にげあし
+345,50,3,도주
+346,50,5,Fuite
+347,50,6,Angsthase
+348,50,7,Fuga
+349,50,8,Fugafacile
+350,50,9,"Run Away"
+351,51,1,するどいめ
+352,51,3,날카로운눈
+353,51,5,"Regard Vif"
+354,51,6,Adlerauge
+355,51,7,"Vista Lince"
+356,51,8,Sguardofermo
+357,51,9,"Keen Eye"
+358,52,1,かいりきバサミ
+359,52,3,괴력집게
+360,52,5,"Hyper Cutter"
+361,52,6,Scherenmacht
+362,52,7,"Corte Fuerte"
+363,52,8,Ipertaglio
+364,52,9,"Hyper Cutter"
+365,53,1,ものひろい
+366,53,3,픽업
+367,53,5,Ramassage
+368,53,6,Mitnahme
+369,53,7,Recogida
+370,53,8,Raccolta
+371,53,9,Pickup
+372,54,1,なまけ
+373,54,3,게으름
+374,54,5,Absentéisme
+375,54,6,Schnarchnase
+376,54,7,Ausente
+377,54,8,Pigrone
+378,54,9,Truant
+379,55,1,はりきり
+380,55,3,의욕
+381,55,5,Agitation
+382,55,6,Übereifer
+383,55,7,Entusiasmo
+384,55,8,Tuttafretta
+385,55,9,Hustle
+386,56,1,メロメロボディ
+387,56,3,헤롱헤롱바디
+388,56,5,"Joli Sourire"
+389,56,6,Charmebolzen
+390,56,7,"Gran Encanto"
+391,56,8,Incantevole
+392,56,9,"Cute Charm"
+393,57,1,プラス
+394,57,3,플러스
+395,57,5,Plus
+396,57,6,Plus
+397,57,7,Más
+398,57,8,Più
+399,57,9,Plus
+400,58,1,マイナス
+401,58,3,마이너스
+402,58,5,Minus
+403,58,6,Minus
+404,58,7,Menos
+405,58,8,Meno
+406,58,9,Minus
+407,59,1,てんきや
+408,59,3,기분파
+409,59,5,Météo
+410,59,6,Prognose
+411,59,7,Predicción
+412,59,8,Previsioni
+413,59,9,Forecast
+414,60,1,ねんちゃく
+415,60,3,점착
+416,60,5,Glue
+417,60,6,Wertehalter
+418,60,7,Viscosidad
+419,60,8,Antifurto
+420,60,9,"Sticky Hold"
+421,61,1,だっぴ
+422,61,3,탈피
+423,61,5,Mue
+424,61,6,Expidermis
+425,61,7,Mudar
+426,61,8,Muta
+427,61,9,"Shed Skin"
+428,62,1,こんじょう
+429,62,3,근성
+430,62,5,Cran
+431,62,6,Adrenalin
+432,62,7,Agallas
+433,62,8,Dentistretti
+434,62,9,Guts
+435,63,1,ふしぎなうろこ
+436,63,3,이상한비늘
+437,63,5,"Écaille Spéciale"
+438,63,6,Notschutz
+439,63,7,"Escama Especial"
+440,63,8,Pelledura
+441,63,9,"Marvel Scale"
+442,64,1,ヘドロえき
+443,64,3,해감액
+444,64,5,Suintement
+445,64,6,Kloakensoße
+446,64,7,"Lodo Líquido"
+447,64,8,Melma
+448,64,9,"Liquid Ooze"
+449,65,1,しんりょく
+450,65,3,심록
+451,65,5,Engrais
+452,65,6,Notdünger
+453,65,7,Espesura
+454,65,8,Erbaiuto
+455,65,9,Overgrow
+456,66,1,もうか
+457,66,3,맹화
+458,66,5,Brasier
+459,66,6,Großbrand
+460,66,7,"Mar Llamas"
+461,66,8,Aiutofuoco
+462,66,9,Blaze
+463,67,1,げきりゅう
+464,67,3,급류
+465,67,5,Torrent
+466,67,6,Sturzbach
+467,67,7,Torrente
+468,67,8,Acquaiuto
+469,67,9,Torrent
+470,68,1,むしのしらせ
+471,68,3,벌레의알림
+472,68,5,Essaim
+473,68,6,Hexaplaga
+474,68,7,Enjambre
+475,68,8,Aiutinsetto
+476,68,9,Swarm
+477,69,1,いしあたま
+478,69,3,돌머리
+479,69,5,"Tête de Roc"
+480,69,6,Steinhaupt
+481,69,7,"Cabeza Roca"
+482,69,8,Testadura
+483,69,9,"Rock Head"
+484,70,1,ひでり
+485,70,3,가뭄
+486,70,5,Sécheresse
+487,70,6,Dürre
+488,70,7,Sequía
+489,70,8,Siccità
+490,70,9,Drought
+491,71,1,ありじごく
+492,71,3,개미지옥
+493,71,5,Piège
+494,71,6,Ausweglos
+495,71,7,"Trampa Arena"
+496,71,8,Trappoarena
+497,71,9,"Arena Trap"
+498,72,1,やるき
+499,72,3,의기양양
+500,72,5,"Esprit Vital"
+501,72,6,Munterkeit
+502,72,7,"Espíritu Vital"
+503,72,8,Spiritovivo
+504,72,9,"Vital Spirit"
+505,73,1,しろいけむり
+506,73,3,하얀연기
+507,73,5,"Écran Fumée"
+508,73,6,Pulverrauch
+509,73,7,"Humo Blanco"
+510,73,8,Fumochiaro
+511,73,9,"White Smoke"
+512,74,1,ヨガパワー
+513,74,3,순수한힘
+514,74,5,"Force Pure"
+515,74,6,Mentalkraft
+516,74,7,"Energía Pura"
+517,74,8,Forzapura
+518,74,9,"Pure Power"
+519,75,1,シェルアーマー
+520,75,3,조가비갑옷
+521,75,5,"Coque Armure"
+522,75,6,Panzerhaut
+523,75,7,Caparazón
+524,75,8,Guscioscudo
+525,75,9,"Shell Armor"
+526,76,1,エアロック
+527,76,3,에어록
+528,76,5,"Air Lock"
+529,76,6,Klimaschutz
+530,76,7,"Bucle Aire"
+531,76,8,Riparo
+532,76,9,"Air Lock"
+533,77,1,ちどりあし
+534,77,3,갈지자걸음
+535,77,5,"Pieds Confus"
+536,77,6,Fußangel
+537,77,7,Tumbos
+538,77,8,Intricopiedi
+539,77,9,"Tangled Feet"
+540,78,1,でんきエンジン
+541,78,3,전기엔진
+542,78,5,Motorisé
+543,78,6,Starthilfe
+544,78,7,Electromotor
+545,78,8,Elettrorapid
+546,78,9,"Motor Drive"
+547,79,1,とうそうしん
+548,79,3,투쟁심
+549,79,5,Rivalité
+550,79,6,Rivalität
+551,79,7,Rivalidad
+552,79,8,Antagonismo
+553,79,9,Rivalry
+554,80,1,ふくつのこころ
+555,80,3,불굴의마음
+556,80,5,Impassible
+557,80,6,Felsenfest
+558,80,7,Impasible
+559,80,8,Cuordeciso
+560,80,9,Steadfast
+561,81,1,ゆきがくれ
+562,81,3,눈숨기
+563,81,5,"Rideau Neige"
+564,81,6,Schneemantel
+565,81,7,"Manto Níveo"
+566,81,8,Mantelneve
+567,81,9,"Snow Cloak"
+568,82,1,くいしんぼう
+569,82,3,먹보
+570,82,5,Gloutonnerie
+571,82,6,Völlerei
+572,82,7,Gula
+573,82,8,Voracità
+574,82,9,Gluttony
+575,83,1,いかりのつぼ
+576,83,3,분노의경혈
+577,83,5,Colérique
+578,83,6,Kurzschluss
+579,83,7,Irascible
+580,83,8,Grancollera
+581,83,9,"Anger Point"
+582,84,1,かるわざ
+583,84,3,곡예
+584,84,5,Délestage
+585,84,6,Entlastung
+586,84,7,Liviano
+587,84,8,Agiltecnica
+588,84,9,Unburden
+589,85,1,たいねつ
+590,85,3,내열
+591,85,5,Ignifugé
+592,85,6,Hitzeschutz
+593,85,7,Ignífugo
+594,85,8,Antifuoco
+595,85,9,Heatproof
+596,86,1,たんじゅん
+597,86,3,단순
+598,86,5,Simple
+599,86,6,Wankelmut
+600,86,7,Simple
+601,86,8,Disinvoltura
+602,86,9,Simple
+603,87,1,かんそうはだ
+604,87,3,건조피부
+605,87,5,"Peau Sèche"
+606,87,6,Trockenheit
+607,87,7,"Piel Seca"
+608,87,8,Pellearsa
+609,87,9,"Dry Skin"
+610,88,1,ダウンロード
+611,88,3,다운로드
+612,88,5,Télécharge
+613,88,6,Download
+614,88,7,Descarga
+615,88,8,Download
+616,88,9,Download
+617,89,1,てつのこぶし
+618,89,3,철주먹
+619,89,5,"Poing de Fer"
+620,89,6,Eisenfaust
+621,89,7,"Puño Férreo"
+622,89,8,Ferropugno
+623,89,9,"Iron Fist"
+624,90,1,ポイズンヒール
+625,90,3,포이즌힐
+626,90,5,"Soin Poison"
+627,90,6,Aufheber
+628,90,7,Antídoto
+629,90,8,Velencura
+630,90,9,"Poison Heal"
+631,91,1,てきおうりょく
+632,91,3,적응력
+633,91,5,Adaptabilité
+634,91,6,Anpassung
+635,91,7,Adaptable
+636,91,8,Adattabilità
+637,91,9,Adaptability
+638,92,1,スキルリンク
+639,92,3,스킬링크
+640,92,5,Multi-Coups
+641,92,6,Wertelink
+642,92,7,Encadenado
+643,92,8,Abillegame
+644,92,9,"Skill Link"
+645,93,1,うるおいボディ
+646,93,3,촉촉바디
+647,93,5,Hydratation
+648,93,6,Hydration
+649,93,7,Hidratación
+650,93,8,Idratazione
+651,93,9,Hydration
+652,94,1,サンパワー
+653,94,3,선파워
+654,94,5,"Force Soleil"
+655,94,6,Solarkraft
+656,94,7,"Poder Solar"
+657,94,8,Solarpotere
+658,94,9,"Solar Power"
+659,95,1,はやあし
+660,95,3,속보
+661,95,5,"Pied Véloce"
+662,95,6,Rasanz
+663,95,7,"Pies Rápidos"
+664,95,8,Piedisvelti
+665,95,9,"Quick Feet"
+666,96,1,ノーマルスキン
+667,96,3,노말스킨
+668,96,5,Normalise
+669,96,6,Regulierung
+670,96,7,Normalidad
+671,96,8,Normalità
+672,96,9,Normalize
+673,97,1,スナイパー
+674,97,3,스나이퍼
+675,97,5,Sniper
+676,97,6,Superschütze
+677,97,7,Francotirador
+678,97,8,Cecchino
+679,97,9,Sniper
+680,98,1,マジックガード
+681,98,3,매직가드
+682,98,5,"Garde Magik"
+683,98,6,Magieschild
+684,98,7,"Muro Mágico"
+685,98,8,Magicscudo
+686,98,9,"Magic Guard"
+687,99,1,ノーガード
+688,99,3,노가드
+689,99,5,"Annule Garde"
+690,99,6,Schildlos
+691,99,7,Indefenso
+692,99,8,Nullodifesa
+693,99,9,"No Guard"
+694,100,1,あとだし
+695,100,3,시간벌기
+696,100,5,Frein
+697,100,6,Zeitspiel
+698,100,7,Rezagado
+699,100,8,Rallentatore
+700,100,9,Stall
+701,101,1,テクニシャン
+702,101,3,테크니션
+703,101,5,Technicien
+704,101,6,Techniker
+705,101,7,Experto
+706,101,8,Tecnico
+707,101,9,Technician
+708,102,1,リーフガード
+709,102,3,리프가드
+710,102,5,"Feuille Garde"
+711,102,6,Floraschild
+712,102,7,"Defensa Hoja"
+713,102,8,Fogliamanto
+714,102,9,"Leaf Guard"
+715,103,1,ぶきよう
+716,103,3,서투름
+717,103,5,Maladresse
+718,103,6,Tollpatsch
+719,103,7,Zoquete
+720,103,8,Impaccio
+721,103,9,Klutz
+722,104,1,かたやぶり
+723,104,3,틀깨기
+724,104,5,"Brise Moule"
+725,104,6,Überbrückung
+726,104,7,Rompemoldes
+727,104,8,Rompiforma
+728,104,9,"Mold Breaker"
+729,105,1,きょううん
+730,105,3,대운
+731,105,5,Chanceux
+732,105,6,Glückspilz
+733,105,7,Afortunado
+734,105,8,Supersorte
+735,105,9,"Super Luck"
+736,106,1,ゆうばく
+737,106,3,유폭
+738,106,5,"Boom Final"
+739,106,6,Finalschlag
+740,106,7,Resquicio
+741,106,8,Scoppio
+742,106,9,Aftermath
+743,107,1,きけんよち
+744,107,3,위험예지
+745,107,5,Anticipation
+746,107,6,Vorahnung
+747,107,7,Anticipación
+748,107,8,Presagio
+749,107,9,Anticipation
+750,108,1,よちむ
+751,108,3,예지몽
+752,108,5,Prédiction
+753,108,6,Vorwarnung
+754,108,7,Alerta
+755,108,8,Premonizione
+756,108,9,Forewarn
+757,109,1,てんねん
+758,109,3,천진
+759,109,5,Inconscient
+760,109,6,Unkenntnis
+761,109,7,Ignorante
+762,109,8,Imprudenza
+763,109,9,Unaware
+764,110,1,いろめがね
+765,110,3,색안경
+766,110,5,Lentiteintée
+767,110,6,Aufwertung
+768,110,7,Cromolente
+769,110,8,Lentifumé
+770,110,9,"Tinted Lens"
+771,111,1,フィルター
+772,111,3,필터
+773,111,5,Filtre
+774,111,6,Filter
+775,111,7,Filtro
+776,111,8,Filtro
+777,111,9,Filter
+778,112,1,スロースタート
+779,112,3,슬로스타트
+780,112,5,"Début Calme"
+781,112,6,Saumselig
+782,112,7,"Inicio Lento"
+783,112,8,Lentoinizio
+784,112,9,"Slow Start"
+785,113,1,きもったま
+786,113,3,배짱
+787,113,5,Querelleur
+788,113,6,Rauflust
+789,113,7,Intrépido
+790,113,8,Nervisaldi
+791,113,9,Scrappy
+792,114,1,よびみず
+793,114,3,마중물
+794,114,5,Lavabo
+795,114,6,Sturmsog
+796,114,7,Colector
+797,114,8,Acquascolo
+798,114,9,"Storm Drain"
+799,115,1,アイスボディ
+800,115,3,아이스바디
+801,115,5,"Corps Gel"
+802,115,6,Eishaut
+803,115,7,Gélido
+804,115,8,Corpogelo
+805,115,9,"Ice Body"
+806,116,1,ハードロック
+807,116,3,하드록
+808,116,5,"Solide Roc"
+809,116,6,Felskern
+810,116,7,"Roca Sólida"
+811,116,8,Solidroccia
+812,116,9,"Solid Rock"
+813,117,1,ゆきふらし
+814,117,3,눈퍼뜨리기
+815,117,5,"Alerte Neige"
+816,117,6,Hagelalarm
+817,117,7,Nevada
+818,117,8,Scendineve
+819,117,9,"Snow Warning"
+820,118,1,みつあつめ
+821,118,3,꿀모으기
+822,118,5,"Cherche Miel"
+823,118,6,Honigmaul
+824,118,7,Recogemiel
+825,118,8,Mielincetta
+826,118,9,"Honey Gather"
+827,119,1,おみとおし
+828,119,3,통찰
+829,119,5,Fouille
+830,119,6,Schnüffler
+831,119,7,Cacheo
+832,119,8,Indagine
+833,119,9,Frisk
+834,120,1,すてみ
+835,120,3,이판사판
+836,120,5,Téméraire
+837,120,6,Achtlos
+838,120,7,Audaz
+839,120,8,Temerarietà
+840,120,9,Reckless
+841,121,1,マルチタイプ
+842,121,3,멀티타입
+843,121,5,Multi-Type
+844,121,6,Variabilität
+845,121,7,Multitipo
+846,121,8,Multitipo
+847,121,9,Multitype
+848,122,1,フラワーギフト
+849,122,3,플라워기프트
+850,122,5,"Don Floral"
+851,122,6,Pflanzengabe
+852,122,7,"Don Floral"
+853,122,8,Regalfiore
+854,122,9,"Flower Gift"
+855,123,1,ナイトメア
+856,123,3,나이트메어
+857,123,5,"Mauvais Rêve"
+858,123,6,Alptraum
+859,123,7,"Mal Sueño"
+860,123,8,Sogniamari
+861,123,9,"Bad Dreams"
+862,124,1,わるいてぐせ
+863,124,3,나쁜손버릇
+864,124,5,Pickpocket
+865,124,6,Langfinger
+866,124,7,Hurto
+867,124,8,Arraffalesto
+868,124,9,Pickpocket
+869,125,1,ちからずく
+870,125,3,우격다짐
+871,125,5,"Sans Limite"
+872,125,6,"Rohe Gewalt"
+873,125,7,"Potencia Bruta"
+874,125,8,Forzabruta
+875,125,9,"Sheer Force"
+876,126,1,あまのじゃく
+877,126,3,심술꾸러기
+878,126,5,Contestation
+879,126,6,Umkehrung
+880,126,7,Respondón
+881,126,8,Inversione
+882,126,9,Contrary
+883,127,1,きんちょうかん
+884,127,3,긴장감
+885,127,5,Tension
+886,127,6,Anspannung
+887,127,7,Nerviosismo
+888,127,8,Agitazione
+889,127,9,Unnerve
+890,128,1,まけんき
+891,128,3,오기
+892,128,5,Acharné
+893,128,6,Siegeswille
+894,128,7,Competitivo
+895,128,8,Agonismo
+896,128,9,Defiant
+897,129,1,よわき
+898,129,3,무기력
+899,129,5,Défaitiste
+900,129,6,Schwächling
+901,129,7,Flaqueza
+902,129,8,Sconforto
+903,129,9,Defeatist
+904,130,1,のろわれボディ
+905,130,3,저주받은바디
+906,130,5,"Corps Maudit"
+907,130,6,Tastfluch
+908,130,7,"Cuerpo Maldito"
+909,130,8,Corpofunesto
+910,130,9,"Cursed Body"
+911,131,1,いやしのこころ
+912,131,3,치유의마음
+913,131,5,"Cœur Soin"
+914,131,6,Heilherz
+915,131,7,"Alma Cura"
+916,131,8,Curacuore
+917,131,9,Healer
+918,132,1,フレンドガード
+919,132,3,프렌드가드
+920,132,5,"Garde Amie"
+921,132,6,Freundeshut
+922,132,7,Compiescolta
+923,132,8,Amicoscudo
+924,132,9,"Friend Guard"
+925,133,1,くだけるよろい
+926,133,3,깨어진갑옷
+927,133,5,Armurouillée
+928,133,6,Bruchrüstung
+929,133,7,"Armadura Frágil"
+930,133,8,Sottilguscio
+931,133,9,"Weak Armor"
+932,134,1,ヘヴィメタル
+933,134,3,헤비메탈
+934,134,5,"Heavy Metal"
+935,134,6,Schwermetall
+936,134,7,"Metal Pesado"
+937,134,8,Metalpesante
+938,134,9,"Heavy Metal"
+939,135,1,ライトメタル
+940,135,3,라이트메탈
+941,135,5,"Light Metal"
+942,135,6,Leichtmetall
+943,135,7,"Metal Liviano"
+944,135,8,Metalleggero
+945,135,9,"Light Metal"
+946,136,1,マルチスケイル
+947,136,3,멀티스케일
+948,136,5,Multiécaille
+949,136,6,Multischuppe
+950,136,7,Compensación
+951,136,8,Multisquame
+952,136,9,Multiscale
+953,137,1,どくぼうそう
+954,137,3,독폭주
+955,137,5,"Rage Poison"
+956,137,6,Giftwahn
+957,137,7,"Ímpetu Tóxico"
+958,137,8,Velenimpeto
+959,137,9,"Toxic Boost"
+960,138,1,ねつぼうそう
+961,138,3,열폭주
+962,138,5,"Rage Brûlure"
+963,138,6,Hitzewahn
+964,138,7,"Ímpetu Ardiente"
+965,138,8,Bruciaimpeto
+966,138,9,"Flare Boost"
+967,139,1,しゅうかく
+968,139,3,수확
+969,139,5,Récolte
+970,139,6,"Reiche Ernte"
+971,139,7,Cosecha
+972,139,8,Coglibacche
+973,139,9,Harvest
+974,140,1,テレパシー
+975,140,3,텔레파시
+976,140,5,Télépathe
+977,140,6,Telepathie
+978,140,7,Telepatía
+979,140,8,Telepatia
+980,140,9,Telepathy
+981,141,1,ムラっけ
+982,141,3,변덕쟁이
+983,141,5,Lunatique
+984,141,6,Gefühlswippe
+985,141,7,Veleta
+986,141,8,Altalena
+987,141,9,Moody
+988,142,1,ぼうじん
+989,142,3,방진
+990,142,5,Envelocape
+991,142,6,Wetterfest
+992,142,7,Funda
+993,142,8,Copricapo
+994,142,9,Overcoat
+995,143,1,どくしゅ
+996,143,3,독수
+997,143,5,Toxitouche
+998,143,6,Giftgriff
+999,143,7,"Toque Tóxico"
+1000,143,8,Velentocco
+1001,143,9,"Poison Touch"
+1002,144,1,さいせいりょく
+1003,144,3,재생력
+1004,144,5,Régé-Force
+1005,144,6,Belebekraft
+1006,144,7,Regeneración
+1007,144,8,Rigenergia
+1008,144,9,Regenerator
+1009,145,1,はとむね
+1010,145,3,부풀린가슴
+1011,145,5,"Cœur de Coq"
+1012,145,6,Brustbieter
+1013,145,7,Sacapecho
+1014,145,8,Pettinfuori
+1015,145,9,"Big Pecks"
+1016,146,1,すなかき
+1017,146,3,모래헤치기
+1018,146,5,"Baigne Sable"
+1019,146,6,Sandscharrer
+1020,146,7,"Ímpetu Arena"
+1021,146,8,Remasabbia
+1022,146,9,"Sand Rush"
+1023,147,1,ミラクルスキン
+1024,147,3,미라클스킨
+1025,147,5,"Peau Miracle"
+1026,147,6,Wunderhaut
+1027,147,7,"Piel Milagro"
+1028,147,8,Splendicute
+1029,147,9,"Wonder Skin"
+1030,148,1,アナライズ
+1031,148,3,애널라이즈
+1032,148,5,Analyste
+1033,148,6,Analyse
+1034,148,7,"Cálculo Final"
+1035,148,8,Ponderazione
+1036,148,9,Analytic
+1037,149,1,イリュージョン
+1038,149,3,일루전
+1039,149,5,Illusion
+1040,149,6,Trugbild
+1041,149,7,Ilusión
+1042,149,8,Illusione
+1043,149,9,Illusion
+1044,150,1,かわりもの
+1045,150,3,괴짜
+1046,150,5,Imposteur
+1047,150,6,Doppelgänger
+1048,150,7,Impostor
+1049,150,8,Sosia
+1050,150,9,Imposter
+1051,151,1,すりぬけ
+1052,151,3,틈새포착
+1053,151,5,Infiltration
+1054,151,6,Schwebedurch
+1055,151,7,Allanamiento
+1056,151,8,Intrapasso
+1057,151,9,Infiltrator
+1058,152,1,ミイラ
+1059,152,3,미라
+1060,152,5,Momie
+1061,152,6,Mumie
+1062,152,7,Momia
+1063,152,8,Mummia
+1064,152,9,Mummy
+1065,153,1,じしんかじょう
+1066,153,3,자기과신
+1067,153,5,Impudence
+1068,153,6,Hochmut
+1069,153,7,Autoestima
+1070,153,8,Arroganza
+1071,153,9,Moxie
+1072,154,1,せいぎのこころ
+1073,154,3,정의의마음
+1074,154,5,"Cœur Noble"
+1075,154,6,Redlichkeit
+1076,154,7,Justiciero
+1077,154,8,Giustizia
+1078,154,9,Justified
+1079,155,1,びびり
+1080,155,3,주눅
+1081,155,5,Phobique
+1082,155,6,Hasenfuß
+1083,155,7,Cobardía
+1084,155,8,Paura
+1085,155,9,Rattled
+1086,156,1,マジックミラー
+1087,156,3,매직미러
+1088,156,5,"Miroir Magik"
+1089,156,6,Magiespiegel
+1090,156,7,"Espejo Mágico"
+1091,156,8,Magispecchio
+1092,156,9,"Magic Bounce"
+1093,157,1,そうしょく
+1094,157,3,초식
+1095,157,5,Herbivore
+1096,157,6,Vegetarier
+1097,157,7,Herbívoro
+1098,157,8,Mangiaerba
+1099,157,9,"Sap Sipper"
+1100,158,1,いたずらごころ
+1101,158,3,짓궂은마음
+1102,158,5,Farceur
+1103,158,6,Strolch
+1104,158,7,Bromista
+1105,158,8,Burla
+1106,158,9,Prankster
+1107,159,1,すなのちから
+1108,159,3,모래의힘
+1109,159,5,"Force Sable"
+1110,159,6,Sandgewalt
+1111,159,7,"Poder Arena"
+1112,159,8,Silicoforza
+1113,159,9,"Sand Force"
+1114,160,1,てつのトゲ
+1115,160,3,철가시
+1116,160,5,"Épine de Fer"
+1117,160,6,Eisenstachel
+1118,160,7,"Punta Acero"
+1119,160,8,Spineferrate
+1120,160,9,"Iron Barbs"
+1121,161,1,ダルマモード
+1122,161,3,달마모드
+1123,161,5,"Mode Transe"
+1124,161,6,Trance-Modus
+1125,161,7,"Modo Daruma"
+1126,161,8,"Stato Zen"
+1127,161,9,"Zen Mode"
+1128,162,1,しょうりのほし
+1129,162,3,승리의별
+1130,162,5,Victorieux
+1131,162,6,Triumphstern
+1132,162,7,Tinovictoria
+1133,162,8,Vittorstella
+1134,162,9,"Victory Star"
+1135,163,1,ターボブレイズ
+1136,163,3,터보블레이즈
+1137,163,5,TurboBrasier
+1138,163,6,Turbobrand
+1139,163,7,Turbollama
+1140,163,8,Piroturbina
+1141,163,9,Turboblaze
+1142,164,1,テラボルテージ
+1143,164,3,테라볼티지
+1144,164,5,Téra-Voltage
+1145,164,6,Teravolt
+1146,164,7,Terravoltaje
+1147,164,8,Teravolt
+1148,164,9,Teravolt
+1149,165,1,アロマベール
+1150,165,3,아로마베일
+1151,165,5,Aroma-Voile
+1152,165,6,Dufthülle
+1153,165,7,"Velo Aroma"
+1154,165,8,Aromavelo
+1155,165,9,"Aroma Veil"
+1156,166,1,フラワーベール
+1157,166,3,플라워베일
+1158,166,5,Flora-Voile
+1159,166,6,Blütenhülle
+1160,166,7,"Velo Flor"
+1161,166,8,Fiorvelo
+1162,166,9,"Flower Veil"
+1163,167,1,ほおぶくろ
+1164,167,3,볼주머니
+1165,167,5,Bajoues
+1166,167,6,Backentaschen
+1167,167,7,Carrillo
+1168,167,8,Guancegonfie
+1169,167,9,"Cheek Pouch"
+1170,168,1,へんげんじざい
+1171,168,3,변환자재
+1172,168,5,Protéen
+1173,168,6,Wandlungskunst
+1174,168,7,Mutatipo
+1175,168,8,Mutatipo
+1176,168,9,Protean
+1177,169,1,ファーコート
+1178,169,3,퍼코트
+1179,169,5,"Toison Épaisse"
+1180,169,6,Fellkleid
+1181,169,7,"Pelaje Recio"
+1182,169,8,Foltopelo
+1183,169,9,"Fur Coat"
+1184,170,1,マジシャン
+1185,170,3,매지션
+1186,170,5,Magicien
+1187,170,6,Zauberer
+1188,170,7,Prestidigitador
+1189,170,8,Prestigiatore
+1190,170,9,Magician
+1191,171,1,ぼうだん
+1192,171,3,방탄
+1193,171,5,Pare-Balles
+1194,171,6,Kugelsicher
+1195,171,7,Antibalas
+1196,171,8,Antiproiettile
+1197,171,9,Bulletproof
+1198,172,1,かちき
+1199,172,3,승기
+1200,172,5,Battant
+1201,172,6,Unbeugsamkeit
+1202,172,7,Tenacidad
+1203,172,8,Tenacia
+1204,172,9,Competitive
+1205,173,1,がんじょうあご
+1206,173,3,옹골찬턱
+1207,173,5,Prognathe
+1208,173,6,Titankiefer
+1209,173,7,"Mandíbula Fuerte"
+1210,173,8,Ferromascella
+1211,173,9,"Strong Jaw"
+1212,174,1,フリーズスキン
+1213,174,3,프리즈스킨
+1214,174,5,"Peau Gelée"
+1215,174,6,Frostschicht
+1216,174,7,"Piel Helada"
+1217,174,8,Pellegelo
+1218,174,9,Refrigerate
+1219,175,1,スイートベール
+1220,175,3,스위트베일
+1221,175,5,Gluco-Voile
+1222,175,6,Zuckerhülle
+1223,175,7,"Velo Dulce"
+1224,175,8,Dolcevelo
+1225,175,9,"Sweet Veil"
+1226,176,1,バトルスイッチ
+1227,176,3,배틀스위치
+1228,176,5,"Déclic Tactique"
+1229,176,6,Taktikwechsel
+1230,176,7,"Cambio Táctico"
+1231,176,8,Accendilotta
+1232,176,9,"Stance Change"
+1233,177,1,はやてのつばさ
+1234,177,3,질풍날개
+1235,177,5,"Ailes Bourrasque"
+1236,177,6,Orkanschwingen
+1237,177,7,"Alas Vendaval"
+1238,177,8,Aliraffica
+1239,177,9,"Gale Wings"
+1240,178,1,メガランチャー
+1241,178,3,메가런처
+1242,178,5,"Méga Blaster"
+1243,178,6,Megawumme
+1244,178,7,Megadisparador
+1245,178,8,Megalancio
+1246,178,9,"Mega Launcher"
+1247,179,1,くさのけがわ
+1248,179,3,풀모피
+1249,179,5,"Toison Herbue"
+1250,179,6,Pflanzenpelz
+1251,179,7,"Manto Frondoso"
+1252,179,8,Peloderba
+1253,179,9,"Grass Pelt"
+1254,180,1,きょうせい
+1255,180,3,공생
+1256,180,5,Symbiose
+1257,180,6,Nutznießer
+1258,180,7,Simbiosis
+1259,180,8,Simbiosi
+1260,180,9,Symbiosis
+1261,181,1,かたいツメ
+1262,181,3,단단한발톱
+1263,181,5,"Griffe Dure"
+1264,181,6,Krallenwucht
+1265,181,7,"Garra Dura"
+1266,181,8,Unghiedure
+1267,181,9,"Tough Claws"
+1268,182,1,フェアリースキン
+1269,182,3,페어리스킨
+1270,182,5,"Peau Féérique"
+1271,182,6,Feenschicht
+1272,182,7,"Piel Feérica"
+1273,182,8,Pellefolletto
+1274,182,9,Pixilate
+1275,183,1,ぬめぬめ
+1276,183,3,미끈미끈
+1277,183,5,Poisseux
+1278,183,6,Viskosität
+1279,183,7,Baba
+1280,183,8,Viscosità
+1281,183,9,Gooey
+1282,184,1,スカイスキン
+1283,184,3,스카이스킨
+1284,184,5,"Peau Céleste"
+1285,184,6,Zenithaut
+1286,184,7,"Piel Celeste"
+1287,184,8,Pellecielo
+1288,184,9,Aerilate
+1289,185,1,おやこあい
+1290,185,3,부자유친
+1291,185,5,"Amour Filial"
+1292,185,6,Familienbande
+1293,185,7,"Amor Filial"
+1294,185,8,Amorefiliale
+1295,185,9,"Parental Bond"
+1296,186,1,ダークオーラ
+1297,186,3,다크오라
+1298,186,5,"Aura Ténébreuse"
+1299,186,6,Dunkelaura
+1300,186,7,"Aura Oscura"
+1301,186,8,Auratetra
+1302,186,9,"Dark Aura"
+1303,187,1,フェアリーオーラ
+1304,187,3,페어리오라
+1305,187,5,"Aura Féérique"
+1306,187,6,Feenaura
+1307,187,7,"Aura Feérica"
+1308,187,8,Aurafolletto
+1309,187,9,"Fairy Aura"
+1310,188,1,オーラブレイク
+1311,188,3,오라브레이크
+1312,188,5,"Aura Inversée"
+1313,188,6,Aura-Umkehr
+1314,188,7,Rompeaura
+1315,188,8,Frangiaura
+1316,188,9,"Aura Break"
+1317,189,1,はじまりのうみ
+1318,189,3,시작의바다
+1319,189,5,"Mer Primaire"
+1320,189,6,Urmeer
+1321,189,7,"Mar del Albor"
+1322,189,8,"Mare Primordiale"
+1323,189,9,"Primordial Sea"
+1324,190,1,おわりのだいち
+1325,190,3,끝의대지
+1326,190,5,"Terre Finale"
+1327,190,6,Endland
+1328,190,7,"Tierra del Ocaso"
+1329,190,8,"Terra Estrema"
+1330,190,9,"Desolate Land"
+1331,191,1,デルタストリーム
+1332,191,3,델타스트림
+1333,191,5,"Souffle Delta"
+1334,191,6,Delta-Wind
+1335,191,7,"Ráfaga Delta"
+1336,191,8,"Flusso Delta"
+1337,191,9,"Delta Stream"
+1338,10001,9,Mountaineer
+1339,10002,9,"Wave Rider"
+1340,10003,9,Skater
+1341,10004,9,Thrust
+1342,10005,9,Perception
+1343,10006,9,Parry
+1344,10007,9,Instinct
+1345,10008,9,Dodge
+1346,10009,9,"Jagged Edge"
+1347,10010,9,Frostbite
+1348,10011,9,Tenacity
+1349,10012,9,Pride
+1350,10013,9,"Deep Sleep"
+1351,10014,9,"Power Nap"
+1352,10015,9,Spirit
+1353,10016,9,"Warm Blanket"
+1354,10017,9,Gulp
+1355,10018,9,Herbivore
+1356,10019,9,Sandpit
+1357,10020,9,"Hot Blooded"
+1358,10021,9,Medic
+1359,10022,9,"Life Force"
+1360,10023,9,Lunchbox
+1361,10024,9,Nurse
+1362,10025,9,Melee
+1363,10026,9,Sponge
+1364,10027,9,Bodyguard
+1365,10028,9,Hero
+1366,10029,9,"Last Bastion"
+1367,10030,9,Stealth
+1368,10031,9,Vanguard
+1369,10032,9,Nomad
+1370,10033,9,Sequence
+1371,10034,9,"Grass Cloak"
+1372,10035,9,Celebrate
+1373,10036,9,Lullaby
+1374,10037,9,Calming
+1375,10038,9,Daze
+1376,10039,9,Frighten
+1377,10040,9,Interference
+1378,10041,9,"Mood Maker"
+1379,10042,9,Confidence
+1380,10043,9,Fortune
+1381,10044,9,Bonanza
+1382,10045,9,Explode
+1383,10046,9,Omnipotent
+1384,10047,9,Share
+1385,10048,9,"Black Hole"
+1386,10049,9,"Shadow Dash"
+1387,10050,9,Sprint
+1388,10051,9,Disgust
+1389,10052,9,High-rise
+1390,10053,9,Climber
+1391,10054,9,"Flame Boost"
+1392,10055,9,"Aqua Boost"
+1393,10056,9,"Run Up"
+1394,10057,9,Conqueror
+1395,10058,9,Shackle
+1396,10059,9,Decoy
+1397,10060,9,Shield
