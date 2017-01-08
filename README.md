@@ -4,7 +4,7 @@ This project gathers all metagame data from the main Pokémon series in an optim
 The data source comes directly from the 
 [`veekun/pokedex`](https://github.com/veekun/pokedex) CSV files,
 which are generated from
-the ripped data of the videogames, but a set of changes may be applied on top in order to
+the ripped data of the videogames, but a [set of changes may be applied](https://github.com/metaunicorn/pokedata-backend#modifications) on top in order to
 optimize and tweak the database depending on the needs of this project.
 
 In this project you will also find zipped SQLite files which is basically all the CSV
@@ -14,13 +14,6 @@ All these files are generated with the UI and command-line tools of the
 [`metaunicorn/pokedata-backend`](https://github.com/metaunicorn/pokedata-backend) project,
 so for maintaining this project, it has to be done through that project (manual changes
 will be no accepted).
-
-## Modifications
-
-Modifications done compared to the original `veekun/pokedex` files:
-
-- Proper quoting of strings that contain spaces.
-- Conquest game data is not present, as it is not a main series game.
 
 ## Credits
 To @eevee and the `veekun/pokedex` project, for being the main data source of this one.
